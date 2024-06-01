@@ -1,0 +1,177 @@
+@use 'navbar';
+@use 'buttons';
+@use 'cards';
+@import 'variables';
+
+%align-center{
+    display: flex;
+    align-items: center;
+   
+  }
+
+%flex-column{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0; 
+    // outline: 1px solid red;
+}
+
+body {
+    box-sizing: border-box;
+    background: #070606;
+    
+}
+.landing-page{
+    // height: 100vh;
+    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    overflow-x: hidden;
+}
+// .gradient-ellipse{
+//         width: 55%; 
+//         height: 100%;
+//         opacity: 0.85;
+//         z-index: -1;
+      
+//     &--blue{
+//         position: absolute;
+//         bottom: 0;
+//         left: 0;
+//     }
+//     &--purple{
+//         position: absolute;
+//         top: 0;
+//         right: 0;
+//     }
+//     &__image{
+//         width: 100%;
+//         height: 100%;
+        
+//     }
+// }
+
+.gradient-effect{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    &__image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+.hero-model{  
+         
+    height: 100%;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    z-index: -2;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
+    box-shadow: 0 0 8px 8px #070606 inset;
+    
+    &__image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &--lg-rectangle{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 80%;
+        height: 16%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #070606 100%);
+    }
+
+}
+.hero{
+    @extend %flex-column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+&__top-container{
+    @extend %flex-column;
+    width: 46%;
+    margin-bottom: 6rem;
+}
+
+&__title{
+font-family: $proxima_font;
+font-weight: 700;
+font-size: 3rem;
+line-height: 4rem;
+color: $text_color_white;
+
+&--highlight{
+    color: $text_color_orange;
+}
+
+}
+
+
+
+&__description{
+    font-family: $proxima_font;
+    font-weight: 250;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: $text_color_grey;
+    margin: 1rem 0 2rem 0;
+}
+
+&__buttons{
+display: flex;
+gap: 1.8rem;
+}
+
+&__bottom-container{
+    @extend %align-center;
+
+}
+&__scroll-down-wrapper{
+    @extend %align-center;
+    justify-content: center;
+    flex: 20%;
+
+}
+&__circular-div{
+    @extend %align-center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid $color_white;
+}
+&__arrow-icon{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+}
+.featured-card-wrapper{
+    @extend %align-center;
+    justify-content: flex-end;
+    flex: 80%;
+    gap: 2rem;
+}
