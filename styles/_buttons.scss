@@ -9,6 +9,7 @@
 
 .button{
     @extend %align-center;
+    flex: 1 0 auto;
     justify-content: center;
     border: 1px solid $button_color;
     border-radius: 20px;
@@ -69,5 +70,21 @@
         // @include phone{
         //     display: none;
         //   }
+    }
+
+    &--atc{
+        width: 8rem;
+        height: 2.5rem;
+        border: 2px solid $button_color;
+        background: transparent;
+        box-shadow: 0px 0px 18px 0px #F14A16;
+    }
+    &--bn{
+        width: 8rem;
+        height: 2.5rem;
+        background: $button_color;
+        color:$button_text_color;
+        border: none;
+        box-shadow: 0px 0px 21px 0px $button_color;
     }
 }

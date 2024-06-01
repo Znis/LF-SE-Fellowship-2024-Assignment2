@@ -1,61 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.cdnfonts.com/css/proxima-nova-condensed" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/proxima-nova-condensed"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Musify</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="landing-page">
-        <figure class="gradient-effect">
-            <img src="images/gradient-effect.svg" alt="Gradient Effect" class="gradient-effect__image">
-        </figure>
-        <figure class="hero-model">
-            <img src="images/hero-model.svg" alt="Hero Model" class="hero-model__image">
-            <div class="hero-model--lg-rectangle"></div>
-        </figure>
-        
-    <nav class="navbar">
+      <figure class="gradient-effect">
+        <img
+          src="images/gradient-effect.svg"
+          alt="Gradient Effect"
+          class="gradient-effect__image"
+        />
+      </figure>
+      <figure class="hero-model">
+        <img
+          src="images/hero-model.svg"
+          alt="Hero Model"
+          class="hero-model__image"
+        />
+        <div class="hero-model--lg-rectangle"></div>
+      </figure>
+
+      <nav class="navbar">
         <figure class="navbar__hamburger-icon-wrapper">
-            <img src="images/hamburger-icon.png" alt="Bars Icon" class="navbar__icon">
+          <img
+            src="images/hamburger-icon.png"
+            alt="Bars Icon"
+            class="navbar__icon"
+          />
         </figure>
         <a href="/" class="navbar__brand">
-            <img src="images/musify-logo.png" alt="Musify Logo" class="navbar__logo">
+          <img
+            src="images/musify-logo.png"
+            alt="Musify Logo"
+            class="navbar__logo"
+          />
         </a>
         <div class="navbar__menu">
-            <a href="/" class="navbar__link navbar__link--active">Home</a>
-            <a href="/" class="navbar__link">Explore</a>
-            <a href="/" class="navbar__link">Contact Us</a>
+          <a href="/" class="navbar__link navbar__link--active">Home</a>
+          <a href="/" class="navbar__link">Explore</a>
+          <a href="/" class="navbar__link">Contact Us</a>
         </div>
-      <div class="navbar__right">
-        <div class="navbar_checkbox-wrapper">
-            <input type="checkbox" id="theme-toggle" class="navbar__checkbox">
+        <div class="navbar__right">
+          <div class="navbar_checkbox-wrapper">
+            <input type="checkbox" id="theme-toggle" class="navbar__checkbox" />
             <label for="theme-toggle" class="navbar__toggle">
-            <img src="images/moon-icon.png" alt="Moon Icon" class="navbar__theme-icon">
-              <img src="images/sun-icon.png" alt="Sun Icon" class="navbar__theme-icon">
-              
+              <img
+                src="images/moon-icon.png"
+                alt="Moon Icon"
+                class="navbar__theme-icon"
+              />
+              <img
+                src="images/sun-icon.png"
+                alt="Sun Icon"
+                class="navbar__theme-icon"
+              />
             </label>
-        </div>
-        
-      
-       <div class="navbar__icons-set-wrapper">
-        <figure class="navbar__icon-wrapper">
-            <img src="images/search-icon.svg" alt="Search Icon" class="navbar__icon navbar__icon--search">
-        </figure>
-        <figure class="navbar__icon-wrapper">
-            <img src="images/cart-icon-white.svg" alt="Cart Icon" class="navbar__icon navbar__icon--cart">
-        </figure>
-       </div>
-        
-        <div class="button button--login">Login</div>
-      </div>
-            
+          </div>
 
-    </nav>
-    
-    <!-- <div class="gradient-ellipse gradient-ellipse--blue">
+          <div class="navbar__icons-set-wrapper">
+            <figure class="navbar__icon-wrapper">
+              <img
+                src="images/search-icon.svg"
+                alt="Search Icon"
+                class="navbar__icon navbar__icon--search"
+              />
+            </figure>
+            <figure class="navbar__icon-wrapper">
+              <img
+                src="images/cart-icon-white.svg"
+                alt="Cart Icon"
+                class="navbar__icon navbar__icon--cart"
+              />
+            </figure>
+          </div>
+
+          <div class="button button--login">Login</div>
+        </div>
+      </nav>
+
+      <!-- <div class="gradient-ellipse gradient-ellipse--blue">
         <img src="images/gradient-blue.svg" alt="Blue Gradient" class="gradient-ellipse__image">
     </div>
     <div class="gradient-ellipse gradient-ellipse--purple">
@@ -63,76 +94,295 @@
 
     </div> -->
 
-    <div class="hero">
-            <div class="hero__top-container">
-                <h1 class="hero__title">Let's Dive in <span class="hero__title--highlight">Music</span> World </h1>
-                <p class="hero__description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra, 
-        phasellus imperdiet fringilla turpis lectus risus erat. Commodo purus, 
-        eu sed suspendisse fermentum.
-                </p>
-                <div class="hero__buttons">
-                    <button class="button button--cta">Shop now</button>
-                    <button class="button button--secondary"><img src="images/cart-icon-orange.svg" alt="Cart Icon" class="button__icon button__icon--cart">Add to cart</button>
-
-                </div>
-           
+      <div class="hero">
+        <div class="hero__top-container">
+          <h1 class="hero__title">
+            Let's Dive in
+            <span class="hero__title--highlight">Music</span> World
+          </h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            pharetra, phasellus imperdiet fringilla turpis lectus risus erat.
+            Commodo purus, eu sed suspendisse fermentum.
+          </p>
+          <div class="hero__buttons">
+            <button class="button button--cta">Shop now</button>
+            <button class="button button--secondary">
+              <img
+                src="images/cart-icon-orange.svg"
+                alt="Cart Icon"
+                class="button__icon button__icon--cart"
+              />Add to cart
+            </button>
+          </div>
         </div>
         <div class="hero__bottom-container">
-            <div class="hero__scroll-down-wrapper">
-                <div class="hero__circular-div">
-                <img src="images/arrow-bottom-icon.svg" alt="Bottom Arrow Icon" class="hero__arrow-icon">
+          <div class="hero__scroll-down-wrapper">
+            <div class="hero__circular-div">
+              <img
+                src="images/arrow-bottom-icon.svg"
+                alt="Bottom Arrow Icon"
+                class="hero__arrow-icon"
+              />
             </div>
+          </div>
+          <div class="featured-card-wrapper">
+            <div class="featured-card">
+              <figure class="featured-card__image-wrapper">
+                <img
+                  src="images/headphone-red.png"
+                  alt="Headphone Image"
+                  class="featured-card__image"
+                />
+              </figure>
+              <div class="featured-card__content">
+                <p class="featured-card__title">Wireless Headphones</p>
+                <div class="featured-card__price-wrapper">
+                  <p class="featured-card__price">$120</p>
+                  <p
+                    class="featured-card__price featured-card__price--cross-out"
+                  >
+                    $185
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="featured-card-wrapper">
-<div class="featured-card">
-    <figure class="featured-card__image-wrapper">
-        <img src="images/headphone.png" alt="Headphone Image" class="featured-card__image">
-    </figure>
-    <div class="featured-card__content">
-        <p class="featured-card__title">Wireless Headphones</p>
-        <div class="featured-card__price-wrapper">
-            <p class="featured-card__price">$120</p>
-            <p class="featured-card__price featured-card__price--cross-out">$185</p>
-        </div>
-       
-    </div>
-
-</div>
-<div class="featured-card">
-    <figure class="featured-card__image-wrapper">
-        <img src="images/headphone.png" alt="Headphone Image" class="featured-card__image">
-    </figure>
-    <div class="featured-card__content">
-        <p class="featured-card__title">Wireless Headphones</p>
-        <div class="featured-card__price-wrapper">
-            <p class="featured-card__price">$120</p>
-            <p class="featured-card__price featured-card__price--cross-out">$185</p>
-        </div>
-       
-    </div>
-
-</div>
-<div class="featured-card">
-    <figure class="featured-card__image-wrapper">
-        <img src="images/headphone.png" alt="Headphone Image" class="featured-card__image">
-    </figure>
-    <div class="featured-card__content">
-        <p class="featured-card__title">Wireless Headphones</p>
-        <div class="featured-card__price-wrapper">
-            <p class="featured-card__price">$120</p>
-            <p class="featured-card__price featured-card__price--cross-out">$185</p>
-        </div>
-       
-    </div>
-
-</div>
+            <div class="featured-card">
+              <figure class="featured-card__image-wrapper">
+                <img
+                  src="images/headphone-red.png"
+                  alt="Headphone Image"
+                  class="featured-card__image"
+                />
+              </figure>
+              <div class="featured-card__content">
+                <p class="featured-card__title">Wireless Headphones</p>
+                <div class="featured-card__price-wrapper">
+                  <p class="featured-card__price">$120</p>
+                  <p
+                    class="featured-card__price featured-card__price--cross-out"
+                  >
+                    $185
+                  </p>
+                </div>
+              </div>
             </div>
+            <div class="featured-card">
+              <figure class="featured-card__image-wrapper">
+                <img
+                  src="images/headphone-red.png"
+                  alt="Headphone Image"
+                  class="featured-card__image"
+                />
+              </figure>
+              <div class="featured-card__content">
+                <p class="featured-card__title">Wireless Headphones</p>
+                <div class="featured-card__price-wrapper">
+                  <p class="featured-card__price">$120</p>
+                  <p
+                    class="featured-card__price featured-card__price--cross-out"
+                  >
+                    $185
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-<section class="popular-trends">
-    
-</section>
-</body>
+      </div>
+    </section>
+    <section class="popular-trends">
+      <div class="popular-trends__container">
+        <h1 class="popular-trends__title">Popular Trends</h1>
+        <div class="popular-trends__card-wrapper">
+          <div class="popular-trends-card">
+            <figure class="popular-trends-card__image-wrapper">
+              <img
+                src="images/headphone-black.png"
+                alt="Black Headphone"
+                class="popular-trends-card__image"
+              />
+            </figure>
+            <div class="popular-trends-card__content">
+              <p class="popular-trends-card__title">
+                Wireless Headphones with Dolby Surround Sound
+              </p>
+              <ul class="popular-trends-card__features">
+                <li>Truely Wireless</li>
+                <li>Dolby Surround Sound</li>
+                <li>13 Hours of Playback Time</li>
+                <li>Made in Germany</li>
+              </ul>
+              <p class="popular-trends-card__price">$145</p>
+              <div class="popular-trends-card__buttons-wrapper">
+                <button class="button button--atc">
+                  <img
+                    src="images/cart-icon-orange.svg"
+                    alt="Cart Icon"
+                    class="button__icon button__icon--cart"
+                  />Add to cart
+                </button>
+                <button class="button button--bn">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="popular-trends-card">
+            <figure class="popular-trends-card__image-wrapper">
+              <img
+                src="images/headphone-black.png"
+                alt="Black Headphone"
+                class="popular-trends-card__image"
+              />
+            </figure>
+            <div class="popular-trends-card__content">
+              <p class="popular-trends-card__title">
+                Wireless Headphones with Dolby Surround Sound
+              </p>
+              <ul class="popular-trends-card__features">
+                <li>Truely Wireless</li>
+                <li>Dolby Surround Sound</li>
+                <li>13 Hours of Playback Time</li>
+                <li>Made in Germany</li>
+              </ul>
+              <p class="popular-trends-card__price">$145</p>
+              <div class="popular-trends-card__buttons-wrapper">
+                <button class="button button--atc">
+                  <img
+                    src="images/cart-icon-orange.svg"
+                    alt="Cart Icon"
+                    class="button__icon button__icon--cart"
+                  />Add to cart
+                </button>
+                <button class="button button--bn">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="popular-trends-card">
+            <figure class="popular-trends-card__image-wrapper">
+              <img
+                src="images/headphone-black.png"
+                alt="Black Headphone"
+                class="popular-trends-card__image"
+              />
+            </figure>
+            <div class="popular-trends-card__content">
+              <p class="popular-trends-card__title">
+                Wireless Headphones with Dolby Surround Sound
+              </p>
+              <ul class="popular-trends-card__features">
+                <li>Truely Wireless</li>
+                <li>Dolby Surround Sound</li>
+                <li>13 Hours of Playback Time</li>
+                <li>Made in Germany</li>
+              </ul>
+              <p class="popular-trends-card__price">$145</p>
+              <div class="popular-trends-card__buttons-wrapper">
+                <button class="button button--atc">
+                  <img
+                    src="images/cart-icon-orange.svg"
+                    alt="Cart Icon"
+                    class="button__icon button__icon--cart"
+                  />Add to cart
+                </button>
+                <button class="button button--bn">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="popular-trends-card">
+            <figure class="popular-trends-card__image-wrapper">
+              <img
+                src="images/headphone-black.png"
+                alt="Black Headphone"
+                class="popular-trends-card__image"
+              />
+            </figure>
+            <div class="popular-trends-card__content">
+              <p class="popular-trends-card__title">
+                Wireless Headphones with Dolby Surround Sound
+              </p>
+              <ul class="popular-trends-card__features">
+                <li>Truely Wireless</li>
+                <li>Dolby Surround Sound</li>
+                <li>13 Hours of Playback Time</li>
+                <li>Made in Germany</li>
+              </ul>
+              <p class="popular-trends-card__price">$145</p>
+              <div class="popular-trends-card__buttons-wrapper">
+                <button class="button button--atc">
+                  <img
+                    src="images/cart-icon-orange.svg"
+                    alt="Cart Icon"
+                    class="button__icon button__icon--cart"
+                  />Add to cart
+                </button>
+                <button class="button button--bn">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="popular-trends-card">
+            <figure class="popular-trends-card__image-wrapper">
+              <img
+                src="images/headphone-black.png"
+                alt="Black Headphone"
+                class="popular-trends-card__image"
+              />
+            </figure>
+            <div class="popular-trends-card__content">
+              <p class="popular-trends-card__title">
+                Wireless Headphones with Dolby Surround Sound
+              </p>
+              <ul class="popular-trends-card__features">
+                <li>Truely Wireless</li>
+                <li>Dolby Surround Sound</li>
+                <li>13 Hours of Playback Time</li>
+                <li>Made in Germany</li>
+              </ul>
+              <p class="popular-trends-card__price">$145</p>
+              <div class="popular-trends-card__buttons-wrapper">
+                <button class="button button--atc">
+                  <img
+                    src="images/cart-icon-orange.svg"
+                    alt="Cart Icon"
+                    class="button__icon button__icon--cart"
+                  />Add to cart
+                </button>
+                <button class="button button--bn">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why-buy-musify">
+      <div class="why-buy-musify__container">
+        <h1 class="why-buy-musify__title">Why buy directly from Musify?</h1>
+        <div class="why-buy-musify__reason-wrapper">
+          <div class="why-buy-musify__reason">
+            <img
+              src="images/delivery-icon.png"
+              alt="Delivery Icon"
+              class="why-buy-musify__icon why-buy-musify__icon--delivery"
+            />
+            <p class="why-buy-musify__reason-text">Free Delivery</p>
+          </div>
+          <div class="why-buy-musify__reason">
+            <img
+              src="images/checked-icon.png"
+              alt="Checked Icon"
+              class="why-buy-musify__icon why-buy-musify__icon--checked"
+            />
+            <p class="why-buy-musify__reason-text">Verified Products</p>
+          </div>
+          <div class="why-buy-musify__reason">
+            <img
+              src="images/customer-icon.png"
+              alt="Customer Icon"
+              class="why-buy-musify__icon why-buy-musify__icon--customer"
+            />
+            <p class="why-buy-musify__reason-text">24/7 Customer Support</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

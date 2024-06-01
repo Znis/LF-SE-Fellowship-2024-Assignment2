@@ -62,3 +62,50 @@ line-height: 1.4rem;
 }
 
 }
+.popular-trends-card{
+@extend %flex-column;
+border-radius: 50px;
+border: 1px solid $color_white;
+background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+font-family: $proxima_font;
+font-weight: 400;
+color: $text_color_white;
+max-width: 30%;
+
+&__image-wrapper{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+&__image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+&__content{
+    @extend %flex-column;
+    padding: 1rem;
+    gap: 1rem;
+}
+&__title{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
+}
+&__features{
+font-size: 0.8rem;
+line-height: 1.5rem;
+padding-left: 2rem;
+}
+&__price{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: $price_text_color;
+    }
+    &__buttons-wrapper{
+        @extend %align-center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
