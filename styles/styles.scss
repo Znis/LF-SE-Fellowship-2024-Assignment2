@@ -20,7 +20,7 @@
 *{
     margin: 0;
     padding: 0; 
-    // outline: 1px solid red;
+
 }
 
 body {
@@ -481,5 +481,152 @@ gap: 1.8rem;
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
+    }
+}
+
+.footer-section{
+    @extend %flex-column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem 1rem 1rem;
+    background: $background-color-purple;
+    font-family: $proxima_font;
+    color: $text_color_white;
+
+    &__container{
+        @extend %align-center;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 100%;
+        padding: 2rem;
+        gap: 4rem;
+        flex-wrap: wrap;
+
+    }
+
+    &__left-container{
+        @extend %flex-column;
+        gap: 4rem;
+    }
+    &__right-container{
+        @extend %flex-column;
+        gap: 2rem;
+    }
+    &__left-top-container{
+        @extend %align-center;
+        align-items: flex-start;
+        gap: 4rem;
+        flex-wrap: wrap;
+    }
+    &__logo-wrapper{
+        @extend %flex-column;
+        align-self: stretch;
+        justify-content: center;
+  
+    }
+    &__logo{
+        
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    &__left-top-middle-container{
+        @extend %flex-column;
+        gap: 3rem;
+    }
+    &__title{
+        font-weight: 700 ;
+        font-size: 1.6rem ;
+        line-height: 2rem;
+    }
+    &__text{
+        font-weight: 400 ;
+        font-size: 1.1rem ;
+        line-height: 1.5rem;
+    }
+    &__link{
+        font-weight: 400 ;
+        font-size: 1.1rem ;
+        line-height: 1.5rem;
+        color: $text_color_white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__shop{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__country{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__support{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__about-us{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__contact-us{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__manufacturer{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__social-links{
+        @extend %flex-column;
+        gap: 0.8rem;
+    }
+    &__subscribe-container{
+        @extend %align-center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
+    &__left-bottom-container{
+        @extend %flex-column;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+    &__mail-input{
+        height: 2rem;
+        width: 18rem;
+        padding: 0.4rem 1rem;
+        border: 2px solid $text_color_orange;
+        border-radius: 20px;
+        color: $text_color_white;
+        font-size: 1rem;
+        background: transparent;
+        outline: none;
+    }
+   
+    &__social-icons-container{
+        @extend %align-center;
+        gap: 0.8rem;
+    }
+    &__social-icon-wrapper{
+        @extend %align-center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 1.5rem;
+        padding: 0.2rem;
+        border-radius: 50%;
+        background: $color_white;
+        overflow: hidden;
+
+    }
+    &__social-icon{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    &__copyright-text{
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 2rem;
     }
 }

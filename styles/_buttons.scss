@@ -62,7 +62,7 @@
         padding: 0.2rem 1.8rem;
         border: 2px solid $button_color;
         background: transparent;
-        box-shadow: 0px 0px 18px 0px #F14A16;
+        box-shadow: 0px 0px 18px 0px $button_color;
 
 
         
@@ -77,7 +77,7 @@
         height: 2.5rem;
         border: 2px solid $button_color;
         background: transparent;
-        box-shadow: 0px 0px 18px 0px #F14A16;
+        box-shadow: 0px 0px 18px 0px $button_color;
     }
     &--bn{
         width: 8rem;
@@ -85,6 +85,13 @@
         background: $button_color;
         color:$button_text_color;
         border: none;
-        box-shadow: 0px 0px 21px 0px $button_color;
+        box-shadow: 0px 0px 21px 0px ;
+    }
+    &--subscribe-btn{
+        width: 8rem;
+        height: 2.5rem;
+        background: $button_color;
+        color:$button_text_color;
+        border: none;
     }
 }
