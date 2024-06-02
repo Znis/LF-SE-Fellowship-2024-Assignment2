@@ -1,4 +1,4 @@
-.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .navbar__toggle, .navbar__right, .navbar__menu, .navbar {
+.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .navbar__toggle, .navbar__right, .navbar__menu, .navbar {
   display: flex;
   align-items: center;
 }
@@ -119,7 +119,7 @@
   }
 }
 
-.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .button {
+.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .button {
   display: flex;
   align-items: center;
 }
@@ -189,12 +189,12 @@
   box-shadow: 0px 0px 21px 0px #F14A16;
 }
 
-.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .popular-trends-card__buttons-wrapper, .featured-card__price-wrapper {
+.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
   display: flex;
   align-items: center;
 }
 
-.hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .popular-trends-card__content, .popular-trends-card, .featured-card__content, .featured-card {
+.hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
   display: flex;
   flex-direction: column;
 }
@@ -243,53 +243,77 @@
   text-decoration: line-through;
 }
 
-.popular-trends-card {
+.main-card-template, .new-arrivals-card, .popular-trends-card {
   border-radius: 50px;
-  border: 1px solid #FFFFFF;
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
-  max-width: 30%;
-}
-.popular-trends-card__image-wrapper {
-  height: 50%;
-  width: 100%;
   overflow: hidden;
 }
-.popular-trends-card__image {
+.main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .new-arrivals-card__image, .popular-trends-card__image {
   max-width: 100%;
   max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.popular-trends-card__content {
+.main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content {
   padding: 1rem;
   gap: 1rem;
 }
-.popular-trends-card__title {
+.main-card-template__title, .new-arrivals-card__title, .popular-trends-card__title {
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
-.popular-trends-card__features {
+.main-card-template__features, .new-arrivals-card__features, .popular-trends-card__features {
   font-size: 0.8rem;
   line-height: 1.5rem;
   padding-left: 2rem;
 }
-.popular-trends-card__price {
+.main-card-template__price, .new-arrivals-card__price, .popular-trends-card__price {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #FC9918;
 }
-.popular-trends-card__buttons-wrapper {
+.main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper {
   justify-content: center;
   gap: 1rem;
 }
 
-.why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container {
+.popular-trends-card {
+  min-width: 30%;
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .exclusive-offer, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container {
   display: flex;
   align-items: center;
 }
 
-.why-buy-musify__container, .popular-trends__container, .hero__top-container, .hero {
+.scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero {
   display: flex;
   flex-direction: column;
 }
@@ -412,21 +436,21 @@ body {
   gap: 2rem;
 }
 
-.popular-trends {
+.popular-trends, .new-arrivals {
   padding: 4rem;
 }
-.popular-trends__container {
+.popular-trends__container, .new-arrivals__container {
   align-items: center;
   gap: 4rem;
 }
-.popular-trends__title {
+.popular-trends__title, .new-arrivals__title {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 2.2rem;
   color: #FFFFFF;
 }
-.popular-trends__card-wrapper {
+.popular-trends__card-wrapper, .new-arrivals__card-wrapper {
   gap: 2rem;
   width: 100%;
   padding: 1rem 0;
@@ -467,4 +491,182 @@ body {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.exclusive-offer {
+  padding: 4rem 6rem;
+}
+.exclusive-offer__container {
+  justify-content: space-around;
+  width: 100%;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  color: #FFFFFF;
+}
+.exclusive-offer__left-container {
+  width: 40%;
+  position: relative;
+}
+.exclusive-offer__image-wrapper {
+  justify-content: center;
+  border-radius: 50%;
+  background: #35589A;
+  overflow: hidden;
+}
+.exclusive-offer__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.exclusive-offer__discount-div {
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background: #370665;
+  box-shadow: 8px 10px 17px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.exclusive-offer__discount-text {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.exclusive-offer__right-container {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+}
+.exclusive-offer__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+}
+.exclusive-offer__content {
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  gap: 0.5rem;
+}
+.exclusive-offer__time-wrapper {
+  gap: 1rem;
+}
+.exclusive-offer__time {
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.exclusive-offer__time-container {
+  justify-content: center;
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  background: #370665;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.exclusive-offer__buttons-wrapper {
+  gap: 1rem;
+}
+
+.other-accessories {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  padding: 5rem;
+}
+.other-accessories__title {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #FFFFFF;
+}
+.other-accessories__container {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.other-accessories__image-wrapper {
+  justify-content: center;
+  flex: 1 0 48%;
+  border-radius: 25px;
+  background: #C4C4C4;
+  overflow: hidden;
+}
+.other-accessories__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.scan-qr {
+  padding: 4rem;
+}
+.scan-qr__container {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 4rem;
+  border-radius: 25px;
+  background: linear-gradient(91.42deg, #370665 0%, #35589A 100%);
+  padding: 3rem 4rem;
+}
+.scan-qr__left-container {
+  justify-content: center;
+}
+.scan-qr__image-wrapper {
+  justify-content: center;
+}
+.scan-qr__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.scan-qr__right-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  color: #FFFFFF;
+}
+.scan-qr__title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+}
+.scan-qr__description {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.scan-qr__app-download-container {
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+.scan-qr__app-download-image-wrapper {
+  justify-content: center;
+  width: 10rem;
+}
+.scan-qr__app-download-image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=styles.css.map */

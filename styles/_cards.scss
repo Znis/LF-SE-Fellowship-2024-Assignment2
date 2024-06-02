@@ -62,25 +62,31 @@ line-height: 1.4rem;
 }
 
 }
-.popular-trends-card{
+.main-card-template{
 @extend %flex-column;
 border-radius: 50px;
-border: 1px solid $color_white;
-background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
 font-family: $proxima_font;
 font-weight: 400;
 color: $text_color_white;
-max-width: 30%;
+overflow: hidden;
+
+
 
 &__image-wrapper{
+  @extend %align-center;
+  justify-content: center;
     height: 50%;
     width: 100%;
-    overflow: hidden;
+    
+    
+   
+
 }
 
 &__image{
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
 }
 
 &__content{
@@ -108,4 +114,79 @@ padding-left: 2rem;
         justify-content: center;
         gap: 1rem;
     }
+}
+.popular-trends-card{
+    @extend .main-card-template;
+    min-width: 30%;
+    background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+    border: 1px solid $color_white;
+
+    &__title{
+        @extend .main-card-template__title;
+        font-size: 1.1rem;
+    }
+    &__price{
+        @extend .main-card-template__price;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    &__image-wrapper {
+        @extend .main-card-template__image-wrapper;
+      }
+    
+      &__image {
+        @extend .main-card-template__image;
+      }
+    
+      &__content {
+        @extend .main-card-template__content;
+      }
+    
+      &__features {
+        @extend .main-card-template__features;
+      }
+    
+    
+    
+      &__buttons-wrapper {
+        @extend .main-card-template__buttons-wrapper;
+      }
+}
+
+.new-arrivals-card{
+    @extend .main-card-template;
+    min-width: 35%;
+    background: $background-color-purple;
+    border: 4px solid $background-color-blue;
+    &__title{
+        @extend .main-card-template__title;
+        font-size: 1.2rem;
+    }
+    &__price{
+        @extend .main-card-template__price;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    &__image-wrapper {
+        @extend .main-card-template__image-wrapper;
+        
+      }
+    
+      &__image {
+        @extend .main-card-template__image;
+      }
+    
+      &__content {
+        @extend .main-card-template__content;
+      }
+    
+      &__features {
+        @extend .main-card-template__features;
+      }
+    
+    
+    
+      &__buttons-wrapper {
+        @extend .main-card-template__buttons-wrapper;
+      }
 }
