@@ -1,40 +1,41 @@
-@import './modules/variables';
-@import './modules/media-queries';
-@import './modules/cards';
-@import './modules/buttons';
+@import "./modules/variables";
+@import "./modules/media-queries";
 
-.other-accessories{
-    @extend %flex-column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 5rem;
-    padding: 5rem;
-&__title{
+.other-accessories {
+  @extend %flex-column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  padding: 5rem;
+  &__title {
     font-family: $proxima_font;
     font-weight: 700;
     font-size: 3rem;
     line-height: 4rem;
     color: $text_color;
-}
-    &__container{
-        @extend %align-center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1.5rem;
+  }
+  &__container {
+    @extend %align-center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  &__image-wrapper {
+    @extend %align-center;
+    justify-content: center;
+    flex: 1 0 48%;
+    min-width: 20rem;
+    border-radius: 25px;
+    background: transparent;
+    overflow: hidden;
+    @include phone {
+      border: 2px solid $color_white;
     }
-    &__image-wrapper{
-        @extend %align-center;
-        justify-content: center;
-        flex: 1 0 48%;
-        min-width: 20rem;
-        border-radius: 25px;
-        background: transparent;
-        overflow: hidden;
-    }
-    &__image{
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-    }
+  }
+  &__image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
 }

@@ -1,12 +1,11 @@
 @import "./modules/variables";
 @import "./modules/media-queries";
-@import "./modules/cards";
-@import "./modules/buttons";
 
 .exclusive-offer {
   @extend %flex-column;
   font-family: $proxima_font;
   color: $text_color;
+  gap: 4rem;
   padding: 4rem 6rem;
 
   &__title {
@@ -64,16 +63,18 @@
     @extend %align-center;
     justify-content: center;
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 4%;
+    left: 4%;
     height: 4rem;
     width: 4rem;
-    min-width: 3rem;
-    min-height: 3rem;
     padding: 1rem;
     border-radius: 50%;
     background: $background-color-purple;
     box-shadow: 8px 10px 17px 0px $discount-div-shadow;
+    @include phone {
+      top: -10%;
+      left: -10%;
+    }
   }
   &__discount-text {
     font-weight: 700;

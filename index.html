@@ -63,19 +63,19 @@
           </div>
 
           <div class="navbar__icons-set-wrapper">
-            <figure class="navbar__icon-wrapper">
+            <figure class="navbar__icon-wrapper navbar__icon--search">
               <img
-                src="images/search-icon.svg"
+                src="images/search-icon-white.svg"
                 alt="Search Icon"
-                class="navbar__icon navbar__icon--search"
+                class="navbar__icon "
               />
              
             </figure>
-            <figure class="navbar__icon-wrapper">
+            <figure class="navbar__icon-wrapper navbar__icon--cart">
               <img
                 src="images/cart-icon-white.svg"
                 alt="Cart Icon"
-                class="navbar__icon navbar__icon--cart"
+                class="navbar__icon"
               />
             </figure>
           </div>
@@ -83,14 +83,19 @@
           <div class="button button--login">Login</div>
         </div>
       </nav>
-
-      <!-- <div class="gradient-ellipse gradient-ellipse--blue">
-        <img src="images/gradient-blue.svg" alt="Blue Gradient" class="gradient-ellipse__image">
+      <div class="search-input">
+      <div class="search-input__container">
+        <figure class="search-input__icon-wrapper search-input__icon--search">
+          <img
+            src="images/search-icon-black.svg"
+            alt="Search Icon"
+            class="search-input__icon"
+          />
+         
+        </figure>
+        <input type="text" class="search-input__input-field" placeholder="Search">
     </div>
-    <div class="gradient-ellipse gradient-ellipse--purple">
-        <img src="images/gradient-purple.svg" alt="Purple Gradient" class="gradient-ellipse__image">
-
-    </div> -->
+  </div>
 
       <div class="hero">
         <div class="hero__top-container">
@@ -568,7 +573,7 @@
       <div class="footer-section__container">
         <div class="footer-section__left-container">
           <div class="footer-section__left-top-container">
-            <figure class="footer-section__logo-wrapper">
+            <figure class="footer-section__logo-wrapper footer-section__logo-wrapper--desktop">
               <img src="images/musify-logo.png" alt="Musify Logo" class="footer-section__logo">
             </figure>
             <div class="footer-section__left-top-middle-container">
@@ -600,7 +605,7 @@
               <a href="/" class="footer-section__link">Brand Store</a>
             </div>
           </div>
-          <div class="footer-section__left-bottom-container">
+          <div class="footer-section__left-bottom-container footer-section__left-bottom-container--desktop">
             <h1 class="footer-section__title">Subscribe to our Newsletter</h1>
             <div class="footer-section__subscribe-container">
               <input type="email" class="footer-section__mail-input" placeholder="Enter your mail id">
@@ -632,17 +637,29 @@
             <h1 class="footer-section__title">Share on Social Media</h1>
             <div class="footer-section__social-icons-container">
               <figure class="footer-section__social-icon-wrapper">
-                <img src="images/google-icon.svg" alt="Google Icon" class="footer-section__social-icon footer-section__social-icon--google">
+                <img src="images/google-icon.png" alt="Google Icon" class="footer-section__social-icon footer-section__social-icon--google">
               </figure>
               <figure class="footer-section__social-icon-wrapper">
-                <img src="images/instagram-icon.svg" alt="Instagram Icon" class="footer-section__social-icon footer-section__social-icon--instagram">
+                <img src="images/instagram-icon.png" alt="Instagram Icon" class="footer-section__social-icon footer-section__social-icon--instagram">
               </figure>
               <figure class="footer-section__social-icon-wrapper">
-                <img src="images/twitter-icon.svg" alt="Twitter Icon" class="footer-section__social-icon footer-section__social-icon--twitter">
+                <img src="images/twitter-icon.png" alt="Twitter Icon" class="footer-section__social-icon footer-section__social-icon--twitter">
               </figure>
   
             </div>
           </div>
+        </div>
+        <div class="footer-section__extra-content-adjustment footer-section__extra-content-adjustment--phone">
+          <div class="footer-section__left-bottom-container footer-section__left-bottom-container--phone">
+            <h1 class="footer-section__title">Subscribe to our Newsletter</h1>
+            <div class="footer-section__subscribe-container">
+              <input type="email" class="footer-section__mail-input" placeholder="Enter your mail id">
+              <button class="button button--subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+          <figure class="footer-section__logo-wrapper footer-section__logo-wrapper--phone">
+            <img src="images/musify-logo.png" alt="Musify Logo" class="footer-section__logo">
+          </figure>
         </div>
       </div>
       <p class="footer-section__copyright-text">

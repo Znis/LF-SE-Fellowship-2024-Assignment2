@@ -1,9 +1,31 @@
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper, .button {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
   display: flex;
   align-items: center;
 }
 
 .button {
+  display: flex;
+  align-items: center;
   width: -moz-fit-content;
   width: fit-content;
   height: -moz-fit-content;
@@ -11,9 +33,9 @@
   max-width: 10rem;
   max-height: 10rem;
   justify-content: center;
-  border: 1px solid #F14A16;
+  border: 1px solid #f14a16;
   border-radius: 20px;
-  color: #F14A16;
+  color: #f14a16;
   justify-content: center;
   transition-duration: 0.5s;
   font-size: 1rem;
@@ -40,45 +62,61 @@
 .button--cta {
   width: 10rem;
   padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
+  background: #f14a16;
+  color: #e5e5e5;
   border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
+  box-shadow: 0px 0px 21px 0px #f14a16;
 }
 .button--secondary {
   width: 10rem;
   padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
+  border: 2px solid #f14a16;
   background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
+  box-shadow: 0px 0px 18px 0px #f14a16;
 }
 .button--atc {
   flex: 1;
   padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
+  border: 2px solid #f14a16;
   background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
+  box-shadow: 0px 0px 18px 0px #f14a16;
 }
 .button--bn {
   flex: 1;
   padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
+  background: #f14a16;
+  color: #e5e5e5;
   border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
+  box-shadow: 0px 0px 21px 0px #f14a16;
 }
 .button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
+  padding: 0.8rem 1.6rem;
+  background: #f14a16;
+  color: #e5e5e5;
   border: none;
 }
+@media screen and (max-width: 1000px) {
+  .button--subscribe-btn {
+    margin: 0 auto;
+  }
+}
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper, .button {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
   display: flex;
   flex-direction: column;
 }
@@ -86,16 +124,14 @@
 .featured-card {
   align-items: center;
   min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
   font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
+  color: #ffffff;
 }
 .featured-card__image-wrapper {
   width: 6rem;
-  margin-top: -28%;
+  margin-bottom: -28%;
+  z-index: 1;
 }
 .featured-card__image {
   max-width: 100%;
@@ -104,8 +140,13 @@
      object-fit: cover;
 }
 .featured-card__content {
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  border: 1px solid #b9b9b9;
+  border-radius: 25px;
   width: 100%;
-  padding: 0 0 0.5rem 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 28%;
   justify-content: flex-start;
 }
 .featured-card__title {
@@ -118,12 +159,12 @@
 .featured-card__price {
   font-size: 1rem;
   line-height: 1.4rem;
-  color: #FC9918;
+  color: #fc9918;
 }
 .featured-card__price--cross-out {
   font-size: 0.8rem;
   line-height: 1.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: line-through;
 }
 
@@ -131,13 +172,14 @@
   border-radius: 50px;
   font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   overflow: hidden;
 }
 .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper {
   justify-content: center;
   height: 50%;
   width: 100%;
+  overflow: hidden;
 }
 .main-card-template__image, .new-arrivals-card__image, .popular-trends-card__image {
   width: 100%;
@@ -161,7 +203,7 @@
 .main-card-template__price, .new-arrivals-card__price, .popular-trends-card__price {
   font-size: 1.2rem;
   line-height: 1.5rem;
-  color: #FC9918;
+  color: #fc9918;
 }
 .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper {
   justify-content: space-between;
@@ -170,7 +212,7 @@
 
 .popular-trends-card {
   background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   min-width: 22rem;
 }
 .popular-trends-card__title {
@@ -181,9 +223,9 @@
   line-height: 1.5rem;
 }
 .new-arrivals-card {
-  min-width: 35%;
+  min-width: 22rem;
   background: #370665;
-  border: 4px solid #35589A;
+  border: 4px solid #35589a;
 }
 .new-arrivals-card__title {
   font-size: 1.2rem;
@@ -192,201 +234,67 @@
   font-size: 1.3rem;
   line-height: 1.5rem;
 }
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
   display: flex;
   flex-direction: column;
 }
 
-.featured-card {
+.search-input {
+  display: none;
   align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
+  justify-content: center;
 }
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
+@media screen and (max-width: 1000px) {
+  .search-input {
+    display: flex;
+  }
 }
-.featured-card__image {
+.search-input__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  position: relative;
+}
+.search-input__icon-wrapper {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 15%;
+  left: 8px;
+}
+.search-input__icon {
   max-width: 100%;
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.featured-card__content {
+.search-input__input-field {
   width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
+  padding: 0.5rem 2rem 0.5rem 3rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffffff;
+  color: #ffffff;
   font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
 }
 
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
   display: flex;
   align-items: center;
 }
 
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
   display: flex;
   align-items: center;
 }
@@ -396,16 +304,25 @@
   z-index: 10;
   flex: 1 0 auto;
   gap: 3rem;
-  margin: 1rem 5rem 4rem 5rem;
-  position: relative;
+  padding: 1rem 5rem 4rem 5rem;
+}
+@media screen and (max-width: 1000px) {
+  .navbar {
+    padding: 2rem;
+  }
 }
 .navbar__brand {
   display: flex;
-  flex: 1;
+  flex: 1 0 auto;
   min-width: 4rem;
   min-height: 4rem;
   height: 5rem;
   width: 5rem;
+}
+@media screen and (max-width: 1000px) {
+  .navbar__brand {
+    justify-content: center;
+  }
 }
 .navbar__logo {
   max-width: 100%;
@@ -414,9 +331,12 @@
      object-fit: cover;
 }
 .navbar__menu {
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
   flex: 1;
   gap: 2rem;
+  white-space: nowrap;
 }
 @media screen and (max-width: 1000px) {
   .navbar__menu {
@@ -428,11 +348,11 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 .navbar__link--active {
-  border-bottom: 2px solid #FC9918;
+  border-bottom: 2px solid #fc9918;
 }
 .navbar__right {
   justify-content: space-between;
@@ -507,213 +427,60 @@
   max-height: 100%;
 }
 @media screen and (max-width: 1000px) {
-  .navbar__icon--cart {
+  .navbar__icon--search {
     display: none;
   }
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
   display: flex;
   flex-direction: column;
 }
 
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
+.hero-model {
+  height: 94%;
+  position: absolute;
+  bottom: 4%;
+  right: 0;
+  z-index: -2;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
+  box-shadow: 0 0 8px 8px #070606 inset;
 }
 @media screen and (max-width: 1000px) {
-  .button--login {
+  .hero-model {
     display: none;
   }
 }
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
+.hero-model__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
+.hero-model--lg-rectangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 16%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #070606 100%);
 }
 
 .hero {
-  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  padding: 4rem;
 }
 .hero__top-container {
   width: 46%;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 @media screen and (max-width: 1000px) {
   .hero__top-container {
@@ -725,24 +492,25 @@
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .hero__title--highlight {
-  color: #F14A16;
+  color: #f14a16;
 }
 .hero__description {
   font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 250;
   font-size: 1.2rem;
   line-height: 1.6rem;
-  color: #A4A4A4;
+  color: #a4a4a4;
   margin: 1rem 0 2rem 0;
 }
 .hero__buttons {
   gap: 1.8rem;
 }
 .hero__bottom-container {
-  margin-bottom: 2rem;
+  justify-content: space-between;
+  gap: 4rem;
 }
 @media screen and (max-width: 1000px) {
   .hero__bottom-container {
@@ -754,7 +522,8 @@
 }
 .hero__scroll-down-wrapper {
   justify-content: center;
-  flex: 20%;
+  margin-top: 4rem;
+  flex: 1;
 }
 @media screen and (max-width: 1000px) {
   .hero__scroll-down-wrapper {
@@ -767,7 +536,7 @@
   height: 2rem;
   padding: 0.5rem;
   border-radius: 50%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   cursor: pointer;
 }
 .hero__arrow-icon {
@@ -778,204 +547,20 @@
 }
 
 .featured-card-wrapper {
-  justify-content: flex-end;
-  flex: 80%;
+  max-width: 100%;
+  padding: 0 1rem;
   gap: 2rem;
   overflow-x: auto;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container {
   display: flex;
   flex-direction: column;
-}
-
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
 }
 
 .popular-trends, .new-arrivals {
@@ -989,7 +574,7 @@
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 2.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
@@ -998,198 +583,14 @@
   overflow-x: auto;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container {
   display: flex;
   flex-direction: column;
-}
-
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
 }
 
 .why-buy-musify {
@@ -1199,11 +600,11 @@
   align-items: center;
   width: 100%;
   padding: 1rem 2rem 2rem 2rem;
-  gap: 1.5rem;
-  background: linear-gradient(91.42deg, #370665 0%, #35589A 100%);
+  gap: 2rem;
+  background: linear-gradient(91.42deg, #370665 0%, #35589a 100%);
   border-radius: 25px;
   font-family: "Proxima Nova Regular", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .why-buy-musify__title {
   font-weight: 700;
@@ -1219,7 +620,7 @@
 @media screen and (max-width: 1000px) {
   .why-buy-musify__reason-wrapper {
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
   }
 }
 .why-buy-musify__reason {
@@ -1235,203 +636,20 @@
   line-height: 2rem;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container {
   display: flex;
   flex-direction: column;
 }
 
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-}
-
 .exclusive-offer {
   font-family: "Proxima Nova Regular", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
+  gap: 4rem;
   padding: 4rem 6rem;
 }
 .exclusive-offer__title {
@@ -1489,16 +707,20 @@
 .exclusive-offer__discount-div {
   justify-content: center;
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 4%;
+  left: 4%;
   height: 4rem;
   width: 4rem;
-  min-width: 3rem;
-  min-height: 3rem;
   padding: 1rem;
   border-radius: 50%;
   background: #370665;
   box-shadow: 8px 10px 17px 0px rgba(0, 0, 0, 0.2509803922);
+}
+@media screen and (max-width: 1000px) {
+  .exclusive-offer__discount-div {
+    top: -10%;
+    left: -10%;
+  }
 }
 .exclusive-offer__discount-text {
   font-weight: 700;
@@ -1548,198 +770,14 @@
   gap: 1rem;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time {
   display: flex;
   flex-direction: column;
-}
-
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
 }
 
 .other-accessories {
@@ -1754,7 +792,7 @@
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .other-accessories__container {
   justify-content: center;
@@ -1769,6 +807,11 @@
   background: transparent;
   overflow: hidden;
 }
+@media screen and (max-width: 1000px) {
+  .other-accessories__image-wrapper {
+    border: 2px solid #ffffff;
+  }
+}
 .other-accessories__image {
   max-width: 100%;
   max-height: 100%;
@@ -1776,392 +819,24 @@
      object-fit: cover;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories {
-  display: flex;
-  flex-direction: column;
-}
-
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-}
-
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories {
   display: flex;
   flex-direction: column;
 }
 
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper {
   display: flex;
   align-items: center;
 }
 
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container {
+  display: flex;
+  flex-direction: column;
 }
 
 .scan-qr {
@@ -2173,7 +848,7 @@
   width: 100%;
   gap: 4rem;
   border-radius: 25px;
-  background: linear-gradient(91.42deg, #370665 0%, #35589A 100%);
+  background: linear-gradient(91.42deg, #370665 0%, #35589a 100%);
   padding: 3rem 4rem;
 }
 .scan-qr__left-container {
@@ -2194,7 +869,7 @@
   text-align: center;
   gap: 1rem;
   font-family: "Proxima Nova Regular", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .scan-qr__title {
   font-weight: 700;
@@ -2222,231 +897,79 @@
      object-fit: cover;
 }
 
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container {
   display: flex;
   flex-direction: column;
-}
-
-.featured-card {
-  align-items: center;
-  min-width: 14rem;
-  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  border: 1px solid #B9B9B9;
-  border-radius: 25px;
-}
-.featured-card__image-wrapper {
-  width: 6rem;
-  margin-top: -28%;
-}
-.featured-card__image {
-  max-width: 100%;
-  max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.featured-card__content {
-  width: 100%;
-  padding: 0 0 0.5rem 1rem;
-  justify-content: flex-start;
-}
-.featured-card__title {
-  font-size: 1.1rem;
-  line-height: 1.4rem;
-}
-.featured-card__price-wrapper {
-  gap: 0.8rem;
-}
-.featured-card__price {
-  font-size: 1rem;
-  line-height: 1.4rem;
-  color: #FC9918;
-}
-.featured-card__price--cross-out {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-  color: #FFFFFF;
-  text-decoration: line-through;
-}
-
-.main-card-template, .popular-trends-card, .new-arrivals-card {
-  border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  overflow: hidden;
-}
-.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
-  justify-content: center;
-  height: 50%;
-  width: 100%;
-}
-.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
-  padding: 1rem;
-  gap: 1rem;
-}
-.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-}
-.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  padding-left: 2rem;
-}
-.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #FC9918;
-}
-.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #FFFFFF;
-  min-width: 22rem;
-}
-.popular-trends-card__title {
-  font-size: 1.1rem;
-}
-.popular-trends-card__price {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-.new-arrivals-card {
-  min-width: 35%;
-  background: #370665;
-  border: 4px solid #35589A;
-}
-.new-arrivals-card__title {
-  font-size: 1.2rem;
-}
-.new-arrivals-card__price {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.button {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  max-width: 10rem;
-  max-height: 10rem;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 1000px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  flex: 1;
-  padding: 0.8rem 0.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--subscribe-btn {
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
 }
 
 .footer-section {
   align-items: center;
   justify-content: center;
-  width: 100%;
-  padding: 4rem 1rem 1rem 1rem;
+  padding: 4rem 4rem 1rem 4rem;
   background: #370665;
   font-family: "Proxima Nova Regular", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
+  gap: 2rem;
 }
 .footer-section__container {
+  display: flex;
   align-items: flex-start;
-  justify-content: space-around;
-  width: 100%;
-  padding: 2rem;
-  gap: 4rem;
+  gap: 8rem;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 1000px) {
+  .footer-section__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 .footer-section__left-container {
-  gap: 4rem;
+  gap: 8rem;
 }
 .footer-section__right-container {
   gap: 2rem;
 }
 .footer-section__left-top-container {
+  display: flex;
   align-items: flex-start;
-  gap: 4rem;
+  gap: 8rem;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 1000px) {
+  .footer-section__left-top-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 .footer-section__logo-wrapper {
+  display: flex;
+  flex-direction: column;
   align-self: stretch;
   justify-content: center;
+}
+.footer-section__logo-wrapper--phone {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .footer-section__logo-wrapper--phone {
+    display: flex;
+    max-width: 8rem;
+    max-height: 8rem;
+    margin: 0 auto;
+  }
+}
+.footer-section__logo-wrapper--desktop {
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .footer-section__logo-wrapper--desktop {
+    display: none;
+  }
 }
 .footer-section__logo {
   max-width: 100%;
@@ -2455,7 +978,7 @@
      object-fit: cover;
 }
 .footer-section__left-top-middle-container {
-  gap: 3rem;
+  gap: 4rem;
 }
 .footer-section__title {
   font-weight: 700;
@@ -2471,7 +994,7 @@
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.5rem;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -2479,7 +1002,14 @@
   gap: 0.8rem;
 }
 .footer-section__country {
+  display: flex;
+  align-items: center;
   gap: 0.8rem;
+}
+@media screen and (max-width: 1000px) {
+  .footer-section__country {
+    display: none;
+  }
 }
 .footer-section__support {
   gap: 0.8rem;
@@ -2497,21 +1027,41 @@
   gap: 0.8rem;
 }
 .footer-section__subscribe-container {
-  justify-content: center;
+  display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
 }
 .footer-section__left-bottom-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 0.8rem;
+}
+.footer-section__left-bottom-container--desktop {
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .footer-section__left-bottom-container--desktop {
+    display: none;
+  }
+}
+.footer-section__extra-content-adjustment {
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .footer-section__extra-content-adjustment {
+    display: flex;
+  }
 }
 .footer-section__mail-input {
   height: 2rem;
   width: 18rem;
   padding: 0.4rem 1rem;
-  border: 2px solid #F14A16;
+  border: 2px solid #f14a16;
   border-radius: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1rem;
   background: transparent;
   outline: none;
@@ -2525,7 +1075,7 @@
   width: 1.5rem;
   padding: 0.2rem;
   border-radius: 50%;
-  background: #FFFFFF;
+  background: #ffffff;
   overflow: hidden;
 }
 .footer-section__social-icon {
@@ -2540,12 +1090,12 @@
   line-height: 2rem;
 }
 
-.button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__container, .footer-section__left-top-container, .footer-section__subscribe-container, .footer-section__social-icons-container, .footer-section__social-icon-wrapper {
+.featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__social-icons-container, .footer-section__social-icon-wrapper {
   display: flex;
   align-items: center;
 }
 
-.featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container, .footer-section, .footer-section__left-container, .footer-section__right-container, .footer-section__logo-wrapper, .footer-section__left-top-middle-container, .footer-section__shop, .footer-section__country, .footer-section__support, .footer-section__about-us, .footer-section__contact-us, .footer-section__manufacturer, .footer-section__social-links, .footer-section__left-bottom-container {
+.featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container, .footer-section, .footer-section__left-container, .footer-section__right-container, .footer-section__left-top-middle-container, .footer-section__shop, .footer-section__support, .footer-section__about-us, .footer-section__contact-us, .footer-section__manufacturer, .footer-section__social-links {
   display: flex;
   flex-direction: column;
 }
@@ -2558,14 +1108,12 @@
 body {
   box-sizing: border-box;
   background: #070606;
-  width: 100vw;
 }
 
 .landing-page {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   position: relative;
-  overflow-x: hidden;
 }
 
 .gradient-effect {
@@ -2584,33 +1132,20 @@ body {
      object-fit: cover;
 }
 
-.hero-model {
-  height: 94%;
-  position: absolute;
-  bottom: 4%;
-  right: 0;
-  z-index: -2;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
-  box-shadow: 0 0 8px 8px #070606 inset;
+::-webkit-scrollbar {
+  width: 5px;
 }
-@media screen and (max-width: 1000px) {
-  .hero-model {
-    display: none;
-  }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #370665;
+  border-radius: 10px;
 }
-.hero-model__image {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+
+::-webkit-scrollbar-thumb {
+  background: #370665;
+  border-radius: 16px;
 }
-.hero-model--lg-rectangle {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 80%;
-  height: 16%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #070606 100%);
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f14a16;
 }/*# sourceMappingURL=styles.css.map */

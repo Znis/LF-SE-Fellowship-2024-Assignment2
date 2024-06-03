@@ -2,6 +2,7 @@
 @import './modules/buttons';
 @import './modules/cards';
 @import './modules/media-queries';
+@import './modules/search-input';
 @import 'navbar';
 @import 'hero-section';
 @import 'popular-trends';
@@ -33,47 +34,19 @@
 *, *::after, *::before{
     margin: 0;
     padding: 0; 
-    // outline: 1px solid red;
 
 }
 
 body {
     box-sizing: border-box;
     background: $body-background-color;
-    width: 100vw;
 
-    
 }
 .landing-page{
-    // height: 100vh;
-    
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     position: relative;
-    overflow-x: hidden;
 }
-// .gradient-ellipse{
-//         width: 55%; 
-//         height: 100%;
-//         opacity: 0.85;
-//         z-index: -1;
-      
-//     &--blue{
-//         position: absolute;
-//         bottom: 0;
-//         left: 0;
-//     }
-//     &--purple{
-//         position: absolute;
-//         top: 0;
-//         right: 0;
-//     }
-//     &__image{
-//         width: 100%;
-//         height: 100%;
-        
-//     }
-// }
 
 .gradient-effect{
     width: 100%;
@@ -91,34 +64,22 @@ body {
 
 }
 
-.hero-model{  
-         
-    height: 94%;
-    position: absolute;
-    bottom: 4%;
-    right: 0;
-    z-index: -2;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
-    box-shadow: 0 0 8px 8px $hero-model-box-shadow inset;
-    @include phone{
-        display: none;
-      }
-    
-    &__image{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    &--lg-rectangle{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 80%;
-        height: 16%;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, $lg-gradient-color 100%);
-    }
 
-}
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px $background-color-purple; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: $background-color-purple; 
+    border-radius: 16px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: $button_color; 
+  }
