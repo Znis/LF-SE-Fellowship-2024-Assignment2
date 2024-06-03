@@ -118,6 +118,12 @@
   @extend .main-card-template;
   border: 1px solid var(--color-white);
   min-width: 22rem;
+  background: linear-gradient(
+    163.76deg,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.1) 100.82%
+  );
+
 
   &__title {
     @extend .main-card-template__title;

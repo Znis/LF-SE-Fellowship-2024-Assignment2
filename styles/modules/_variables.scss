@@ -8,11 +8,14 @@
     flex-direction: column;
   }
 
-
+  @font-face {
+    font-family: proximaNova;
+    src: url(../fonts/Mark_Simonson_Proxima_Nova_Regular.otf);
+  }
 
 :root{
  
-  --primary-font: "Proxima Nova Regular", sans-serif;
+  --primary-font: proximaNova;
 
   --price-text-color: #fc9918;
   --menu-active-link-color: #fc9918;
@@ -62,7 +65,7 @@
 
 .dark-mode{
 
-  --primary-font: "Proxima Nova Regular", sans-serif;
+  --primary-font: proximaNova;
 
   --price-text-color: #fc9918;
   --menu-active-link-color: #fc9918;
