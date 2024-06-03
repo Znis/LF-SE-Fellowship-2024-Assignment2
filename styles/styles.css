@@ -8,6 +8,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
   display: flex;
   align-items: center;
@@ -16,6 +70,60 @@
 .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
 }
 
 .footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
@@ -33,13 +141,13 @@
   max-width: 10rem;
   max-height: 10rem;
   justify-content: center;
-  border: 1px solid #f14a16;
+  border: 1px solid var(--button-background-color);
   border-radius: 20px;
-  color: #f14a16;
+  color: var(--button-background-color);
   justify-content: center;
   transition-duration: 0.5s;
   font-size: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 700;
   line-height: 1.2rem;
   gap: 0.8rem;
@@ -62,37 +170,37 @@
 .button--cta {
   width: 10rem;
   padding: 0.8rem 0.8rem;
-  background: #f14a16;
-  color: #e5e5e5;
+  background: var(--button-background-color);
+  color: var(--button-text-color);
   border: none;
-  box-shadow: 0px 0px 21px 0px #f14a16;
+  box-shadow: 0px 0px 21px 0px var(--button-background-color);
 }
 .button--secondary {
   width: 10rem;
   padding: 0.8rem 0.8rem;
-  border: 2px solid #f14a16;
+  border: 2px solid var(--button-background-color);
   background: transparent;
-  box-shadow: 0px 0px 18px 0px #f14a16;
+  box-shadow: 0px 0px 18px 0px var(--button-background-color);
 }
 .button--atc {
   flex: 1;
   padding: 0.8rem 0.8rem;
-  border: 2px solid #f14a16;
+  border: 2px solid var(--button-background-color);
   background: transparent;
-  box-shadow: 0px 0px 18px 0px #f14a16;
+  box-shadow: 0px 0px 18px 0px var(--button-background-color);
 }
 .button--bn {
   flex: 1;
   padding: 0.8rem 0.8rem;
-  background: #f14a16;
-  color: #e5e5e5;
+  background: var(--button-background-color);
+  color: var(--button-text-color);
   border: none;
-  box-shadow: 0px 0px 21px 0px #f14a16;
+  box-shadow: 0px 0px 21px 0px var(--button-background-color);
 }
 .button--subscribe-btn {
   padding: 0.8rem 1.6rem;
-  background: #f14a16;
-  color: #e5e5e5;
+  background: var(--button-background-color);
+  color: var(--global-font-color);
   border: none;
 }
 @media screen and (max-width: 1000px) {
@@ -111,6 +219,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
   display: flex;
   align-items: center;
@@ -124,9 +286,9 @@
 .featured-card {
   align-items: center;
   min-width: 14rem;
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 400;
-  color: #ffffff;
+  color: var(--primary-font-color);
 }
 .featured-card__image-wrapper {
   width: 6rem;
@@ -141,7 +303,7 @@
 }
 .featured-card__content {
   background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  border: 1px solid #b9b9b9;
+  border: 1px solid var(--color-white);
   border-radius: 25px;
   width: 100%;
   padding-bottom: 0.5rem;
@@ -159,20 +321,20 @@
 .featured-card__price {
   font-size: 1rem;
   line-height: 1.4rem;
-  color: #fc9918;
+  color: var(--price-text-color);
 }
 .featured-card__price--cross-out {
   font-size: 0.8rem;
   line-height: 1.2rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
   text-decoration: line-through;
 }
 
 .main-card-template, .new-arrivals-card, .popular-trends-card {
   border-radius: 50px;
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 400;
-  color: #ffffff;
+  color: var(--global-font-color);
   overflow: hidden;
 }
 .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper {
@@ -203,7 +365,7 @@
 .main-card-template__price, .new-arrivals-card__price, .popular-trends-card__price {
   font-size: 1.2rem;
   line-height: 1.5rem;
-  color: #fc9918;
+  color: var(--price-text-color);
 }
 .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper {
   justify-content: space-between;
@@ -211,8 +373,7 @@
 }
 
 .popular-trends-card {
-  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-white);
   min-width: 22rem;
 }
 .popular-trends-card__title {
@@ -224,8 +385,8 @@
 }
 .new-arrivals-card {
   min-width: 22rem;
-  background: #370665;
-  border: 4px solid #35589a;
+  background: var(--background-color-purple);
+  border: 4px solid var(--background-color-blue);
 }
 .new-arrivals-card__title {
   font-size: 1.2rem;
@@ -242,6 +403,60 @@
 .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
 }
 
 .search-input {
@@ -278,9 +493,10 @@
   width: 100%;
   padding: 0.5rem 2rem 0.5rem 3rem;
   border-radius: 30px;
+  box-shadow: 4px 6px 8px 0px rgba(0, 0, 0, 0.2509803922);
   border: none;
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: var(--color-white);
+  color: var(--alternate-font-color);
   font-size: 1rem;
 }
 
@@ -292,6 +508,60 @@
 .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
 }
 
 .footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
@@ -344,15 +614,15 @@
   }
 }
 .navbar__link {
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
   text-decoration: none;
 }
 .navbar__link--active {
-  border-bottom: 2px solid #fc9918;
+  border-bottom: 2px solid var(--menu-active-link-color);
 }
 .navbar__right {
   justify-content: space-between;
@@ -368,7 +638,8 @@
   justify-content: space-around;
   position: relative;
   border-radius: 30px;
-  background: #000000;
+  background: var(--toggle-background-color);
+  box-shadow: 0px 0px 4px 0px var(--toggle-background-shadow-color);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -379,7 +650,7 @@
   position: absolute;
   top: 4px;
   left: 6px;
-  background: #888888;
+  background: var(--toggle-circle-background-color);
   border-radius: 50%;
   transition: 0.3s;
 }
@@ -442,6 +713,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .hero-model {
   height: 94%;
   position: absolute;
@@ -451,7 +776,7 @@
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
-  box-shadow: 0 0 8px 8px #070606 inset;
+  box-shadow: 0 0 8px 8px var(--hero-model-box-shadow) inset;
 }
 @media screen and (max-width: 1000px) {
   .hero-model {
@@ -468,9 +793,9 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 80%;
+  width: 100%;
   height: 16%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #070606 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--lg-gradient-color) 100%);
 }
 
 .hero {
@@ -488,21 +813,21 @@
   }
 }
 .hero__title {
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
 }
 .hero__title--highlight {
-  color: #f14a16;
+  color: var(--highlighted-font-color);
 }
 .hero__description {
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 250;
   font-size: 1.2rem;
   line-height: 1.6rem;
-  color: #a4a4a4;
+  color: var(--secondary-font-color);
   margin: 1rem 0 2rem 0;
 }
 .hero__buttons {
@@ -536,7 +861,7 @@
   height: 2rem;
   padding: 0.5rem;
   border-radius: 50%;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--primary-font-color);
   cursor: pointer;
 }
 .hero__arrow-icon {
@@ -563,6 +888,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .popular-trends, .new-arrivals {
   padding: 4rem;
 }
@@ -570,11 +949,11 @@
   gap: 4rem;
 }
 .popular-trends__title, .new-arrivals__title {
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 2.2rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
   text-align: center;
 }
 .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
@@ -593,6 +972,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .why-buy-musify {
   padding: 4rem;
 }
@@ -601,10 +1034,10 @@
   width: 100%;
   padding: 1rem 2rem 2rem 2rem;
   gap: 2rem;
-  background: linear-gradient(91.42deg, #370665 0%, #35589a 100%);
+  background: linear-gradient(91.42deg, var(--background-color-purple) 0%, var(--background-color-blue) 100%);
   border-radius: 25px;
-  font-family: "Proxima Nova Regular", sans-serif;
-  color: #ffffff;
+  font-family: var(--primary-font);
+  color: var(--global-font-color);
 }
 .why-buy-musify__title {
   font-weight: 700;
@@ -646,9 +1079,63 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .exclusive-offer {
-  font-family: "Proxima Nova Regular", sans-serif;
-  color: #ffffff;
+  font-family: var(--primary-font);
+  color: var(--global-font-color);
   gap: 4rem;
   padding: 4rem 6rem;
 }
@@ -658,6 +1145,7 @@
   font-size: 2.5rem;
   line-height: 2.2rem;
   text-align: center;
+  color: var(--primary-font-color);
 }
 .exclusive-offer__title--desktop {
   display: block;
@@ -713,8 +1201,8 @@
   width: 4rem;
   padding: 1rem;
   border-radius: 50%;
-  background: #370665;
-  box-shadow: 8px 10px 17px 0px rgba(0, 0, 0, 0.2509803922);
+  background: var(--background-color-purple);
+  box-shadow: 8px 10px 17px 0px var(--discount-div-shadow);
 }
 @media screen and (max-width: 1000px) {
   .exclusive-offer__discount-div {
@@ -740,6 +1228,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 400;
+  color: var(--primary-font-color);
   font-size: 1.5rem;
   line-height: 2rem;
   gap: 0.5rem;
@@ -759,10 +1248,11 @@
   width: 3rem;
   padding: 0.5rem 0.8rem;
   border-radius: 20px;
-  background: #370665;
+  background: var(--background-color-purple);
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
+  color: var(--global-font-color);
 }
 .exclusive-offer__buttons-wrapper {
   justify-content: center;
@@ -780,6 +1270,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .other-accessories {
   align-items: center;
   justify-content: center;
@@ -788,11 +1332,11 @@
   padding: 5rem;
 }
 .other-accessories__title {
-  font-family: "Proxima Nova Regular", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
-  color: #ffffff;
+  color: var(--primary-font-color);
 }
 .other-accessories__container {
   justify-content: center;
@@ -809,7 +1353,7 @@
 }
 @media screen and (max-width: 1000px) {
   .other-accessories__image-wrapper {
-    border: 2px solid #ffffff;
+    border: 2px solid var(--color-white);
   }
 }
 .other-accessories__image {
@@ -829,6 +1373,60 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper {
   display: flex;
   align-items: center;
@@ -837,6 +1435,60 @@
 .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container {
   display: flex;
   flex-direction: column;
+}
+
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
 }
 
 .scan-qr {
@@ -848,7 +1500,7 @@
   width: 100%;
   gap: 4rem;
   border-radius: 25px;
-  background: linear-gradient(91.42deg, #370665 0%, #35589a 100%);
+  background: linear-gradient(91.42deg, var(--background-color-purple) 0%, var(--background-color-blue) 100%);
   padding: 3rem 4rem;
 }
 .scan-qr__left-container {
@@ -868,8 +1520,8 @@
   justify-content: center;
   text-align: center;
   gap: 1rem;
-  font-family: "Proxima Nova Regular", sans-serif;
-  color: #ffffff;
+  font-family: var(--primary-font);
+  color: var(--global-font-color);
 }
 .scan-qr__title {
   font-weight: 700;
@@ -907,13 +1559,67 @@
   flex-direction: column;
 }
 
+:root {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #000000;
+  --secondary-font-color: #282828;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #FFFFFF;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #B9B9B9;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #FAFAFA;
+  --hero-model-box-shadow: #FAFAFA;
+  --body-background-color: #FAFAFA;
+}
+
+.dark-mode {
+  --primary-font: "Proxima Nova Regular", sans-serif;
+  --price-text-color: #fc9918;
+  --menu-active-link-color: #fc9918;
+  --button-background-color: #f14a16;
+  --button-text-color: #e5e5e5;
+  --featured-card-color: #b9b9b9;
+  --color-white: #FFFFFF;
+  --color-orange: #f14a16;
+  --global-font-color: #FFFFFF;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #A4A4A4;
+  --alternate-font-color: #000000;
+  --highlighted-font-color: #f14a16;
+  --product-price-color: #fc9918;
+  --toggle-background-color: #000000;
+  --toggle-circle-background-color: #888888;
+  --toggle-background-shadow-color: #000000;
+  --background-color-blue: #35589a;
+  --background-color-purple: #370665;
+  --background-color-grey: #c4c4c4;
+  --discount-div-shadow: #00000040;
+  --lg-gradient-color: #070606;
+  --hero-model-box-shadow: #070606;
+  --body-background-color: #070606;
+}
+
 .footer-section {
   align-items: center;
   justify-content: center;
   padding: 4rem 4rem 1rem 4rem;
-  background: #370665;
-  font-family: "Proxima Nova Regular", sans-serif;
-  color: #ffffff;
+  background: var(--background-color-purple);
+  font-family: var(--primary-font);
+  color: var(--global-font-color);
   gap: 2rem;
 }
 .footer-section__container {
@@ -994,7 +1700,7 @@
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.5rem;
-  color: #ffffff;
+  color: var(--global-font-color);
   text-decoration: none;
   cursor: pointer;
 }
@@ -1059,9 +1765,9 @@
   height: 2rem;
   width: 18rem;
   padding: 0.4rem 1rem;
-  border: 2px solid #f14a16;
+  border: 2px solid var(--color-orange);
   border-radius: 20px;
-  color: #ffffff;
+  color: var(--global-font-color);
   font-size: 1rem;
   background: transparent;
   outline: none;
@@ -1075,7 +1781,7 @@
   width: 1.5rem;
   padding: 0.2rem;
   border-radius: 50%;
-  background: #ffffff;
+  background: var(--color-white);
   overflow: hidden;
 }
 .footer-section__social-icon {
@@ -1107,7 +1813,7 @@
 
 body {
   box-sizing: border-box;
-  background: #070606;
+  background: var(--body-background-color);
 }
 
 .landing-page {
@@ -1137,15 +1843,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #370665;
+  box-shadow: inset 0 0 5px var(--background-color-purple);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #370665;
+  background: var(--background-color-purple);
   border-radius: 16px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #f14a16;
+  background: var(--color-orange);
 }/*# sourceMappingURL=styles.css.map */

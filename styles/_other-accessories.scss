@@ -9,11 +9,11 @@
   gap: 5rem;
   padding: 5rem;
   &__title {
-    font-family: $proxima_font;
+    font-family:  var(--primary-font);
     font-weight: 700;
     font-size: 3rem;
     line-height: 4rem;
-    color: $text_color;
+    color: var(--primary-font-color);
   }
   &__container {
     @extend %align-center;
@@ -30,7 +30,7 @@
     background: transparent;
     overflow: hidden;
     @include phone {
-      border: 2px solid $color_white;
+      border: 2px solid var(--color-white);
     }
   }
   &__image {

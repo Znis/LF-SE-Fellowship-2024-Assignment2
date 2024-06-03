@@ -14,8 +14,8 @@
     border-radius: 25px;
     background: linear-gradient(
       91.42deg,
-      $background-color-purple 0%,
-      $background-color-blue 100%
+      var(--background-color-purple) 0%,
+      var(--background-color-blue) 100%
     );
     padding: 3rem 4rem;
   }
@@ -41,8 +41,8 @@
     justify-content: center;
     text-align: center;
     gap: 1rem;
-    font-family: $proxima_font;
-    color: $text_color;
+    font-family:  var(--primary-font);
+    color: var(--global-font-color);
   }
 
   &__title {

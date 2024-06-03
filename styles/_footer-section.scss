@@ -6,9 +6,9 @@
   align-items: center;
   justify-content: center;
   padding: 4rem 4rem 1rem 4rem;
-  background: $background-color-purple;
-  font-family: $proxima_font;
-  color: $text_color;
+  background: var(--background-color-purple);
+  font-family:  var(--primary-font);
+  color: var(--global-font-color);
   gap: 2rem;
 
   &__container {
@@ -89,7 +89,7 @@
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.5rem;
-    color: $text_color;
+    color: var(--global-font-color);
     text-decoration: none;
     cursor: pointer;
   }
@@ -160,9 +160,9 @@
     height: 2rem;
     width: 18rem;
     padding: 0.4rem 1rem;
-    border: 2px solid $text_color_orange;
+    border: 2px solid var(--color-orange);
     border-radius: 20px;
-    color: $text_color;
+    color: var(--global-font-color);
     font-size: 1rem;
     background: transparent;
     outline: none;
@@ -179,7 +179,7 @@
     width: 1.5rem;
     padding: 0.2rem;
     border-radius: 50%;
-    background: $color_white;
+    background: var(--color-white);
     overflow: hidden;
   }
   &__social-icon {

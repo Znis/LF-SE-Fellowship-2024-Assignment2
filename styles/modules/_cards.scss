@@ -14,9 +14,9 @@
   @extend %flex-column;
   align-items: center;
   min-width: 14rem;
-  font-family: $proxima_font;
+  font-family:  var(--primary-font);
   font-weight: 400;
-  color: $text_color;
+  color: var(--primary-font-color);
 
   &__image-wrapper {
     width: 6rem;
@@ -37,7 +37,7 @@
       rgba(255, 255, 255, 0.49) -10.87%,
       rgba(255, 255, 255, 0.07) 74.79%
     );
-    border: 1px solid $featured-card-color;
+    border: 1px solid var(--color-white);
     border-radius: 25px;
     width: 100%;
     padding-bottom: 0.5rem;
@@ -57,12 +57,12 @@
   &__price {
     font-size: 1rem;
     line-height: 1.4rem;
-    color: $price_text_color;
+    color: var(--price-text-color);
 
     &--cross-out {
       font-size: 0.8rem;
       line-height: 1.2rem;
-      color: $text_color;
+      color: var(--primary-font-color);
       text-decoration: line-through;
     }
   }
@@ -70,9 +70,9 @@
 .main-card-template {
   @extend %flex-column;
   border-radius: 50px;
-  font-family: $proxima_font;
+  font-family:  var(--primary-font);
   font-weight: 400;
-  color: $text_color;
+  color: var(--global-font-color);
   overflow: hidden;
 
   &__image-wrapper {
@@ -106,7 +106,7 @@
   &__price {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: $price_text_color;
+    color: var(--price-text-color);
   }
   &__buttons-wrapper {
     @extend %align-center;
@@ -114,14 +114,9 @@
     gap: 1.5rem;
   }
 }
-.popular-trends-card {
+.popular-trends-card{
   @extend .main-card-template;
-  background: linear-gradient(
-    163.76deg,
-    rgba(255, 255, 255, 0.7) 0%,
-    rgba(255, 255, 255, 0.1) 100.82%
-  );
-  border: 1px solid $color_white;
+  border: 1px solid var(--color-white);
   min-width: 22rem;
 
   &__title {
@@ -157,8 +152,8 @@
 .new-arrivals-card {
   @extend .main-card-template;
   min-width: 22rem;
-  background: $background-color-purple;
-  border: 4px solid $background-color-blue;
+  background: var(--background-color-purple);
+  border: 4px solid var(--background-color-blue);
   &__title {
     @extend .main-card-template__title;
     font-size: 1.2rem;

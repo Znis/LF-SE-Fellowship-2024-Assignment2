@@ -11,7 +11,7 @@
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
-  box-shadow: 0 0 8px 8px $hero-model-box-shadow inset;
+  box-shadow: 0 0 8px 8px var(--hero-model-box-shadow) inset;
   @include phone{
       display: none;
     }
@@ -25,9 +25,9 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 80%;
+      width: 100%;
       height: 16%;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, $lg-gradient-color 100%);
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--lg-gradient-color) 100%);
   }
 
 }
@@ -48,23 +48,23 @@
   }
 
   &__title {
-    font-family: $proxima_font;
+    font-family:  var(--primary-font);
     font-weight: 700;
     font-size: 3rem;
     line-height: 4rem;
-    color: $text_color;
+    color: var(--primary-font-color);
 
     &--highlight {
-      color: $text_color_orange;
+      color: var(--highlighted-font-color);
     }
   }
 
   &__description {
-    font-family: $proxima_font;
+    font-family:  var(--primary-font);
     font-weight: 250;
     font-size: 1.2rem;
     line-height: 1.6rem;
-    color: $text_color_secondary;
+    color: var(--secondary-font-color);
     margin: 1rem 0 2rem 0;
   }
 
@@ -100,7 +100,7 @@
     height: 2rem;
     padding: 0.5rem;
     border-radius: 50%;
-    border: 1px solid $color_white;
+    border: 1px solid var(--primary-font-color);
     cursor: pointer;
   }
   &__arrow-icon {

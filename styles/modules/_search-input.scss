@@ -34,9 +34,10 @@
         width: 100%;
         padding: 0.5rem 2rem 0.5rem 3rem;
         border-radius: 30px;
+        box-shadow: 4px 6px 8px 0px #00000040;
         border: none;
-        background-color: $color_white;
-        color: $text_color;
+        background-color: var(--color-white);
+        color: var(--alternate-font-color);
         font-size: 1rem;
     }
    

@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./fonts/Mark_Simonson_Proxima_Nova_Regular.otf">
+    <link rel="icon" href="images/musify-logo.png" type="image/png">
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Musify</title>
   </head>
-  <body>
+  <body class="dark-mode">
     <section class="landing-page">
-      <figure class="gradient-effect">
+      <figure class="gradient-effect" id="gradient-effect">
         <img
           src="images/gradient-effect.svg"
           alt="Gradient Effect"
@@ -28,7 +29,7 @@
       <nav class="navbar">
         <figure class="navbar__hamburger-icon-wrapper">
           <img
-            src="images/hamburger-icon.png"
+            src="images/hamburger-icon-white.png"
             alt="Bars Icon"
             class="navbar__icon"
           />
@@ -67,7 +68,8 @@
               <img
                 src="images/search-icon-white.svg"
                 alt="Search Icon"
-                class="navbar__icon "
+                class="navbar__icon"
+                id="navbar__search-icon"
               />
              
             </figure>
@@ -76,6 +78,7 @@
                 src="images/cart-icon-white.svg"
                 alt="Cart Icon"
                 class="navbar__icon"
+                id="navbar__cart-icon"
               />
             </figure>
           </div>
@@ -123,9 +126,10 @@
           <div class="hero__scroll-down-wrapper">
             <div class="hero__circular-div">
               <img
-                src="images/arrow-bottom-icon.svg"
+                src="images/arrow-bottom-icon-white.svg"
                 alt="Bottom Arrow Icon"
                 class="hero__arrow-icon"
+                id="hero__arrow-icon"
               />
             </div>
           </div>
@@ -666,6 +670,9 @@
         © 2022.Musify.All Rights Reserved
       </p>
     </footer>
+
+    <script src="js/script.js"></script>
+    
   </body>
 
 </html>
