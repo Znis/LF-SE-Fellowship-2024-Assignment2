@@ -1,0 +1,59 @@
+@import './modules/variables';
+@import './modules/media-queries';
+@import './modules/cards';
+@import './modules/buttons';
+
+.why-buy-musify{
+    @extend %align-center;
+    padding: 4rem;
+ 
+    &__container{
+        @extend %flex-column;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 2rem 2rem 2rem;
+        gap: 1.5rem;
+        background: linear-gradient(91.42deg, $background-color-purple 0%, $background-color-blue 100%);
+        border-radius: 25px;
+        font-family: $proxima_font;
+        color: $text_color;
+
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+        
+    }
+
+    &__reason-wrapper{
+        @extend %align-center;
+        width: 100%;
+        justify-content: space-between;
+        gap: 2rem;
+
+        @include phone{
+            flex-wrap: wrap;
+            gap: 3rem;
+          }
+    }
+
+    &__reason{
+        @extend %align-center;
+        gap: 0.8rem;
+    }
+
+    &__icon{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &__reason-text{
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        
+    }
+}

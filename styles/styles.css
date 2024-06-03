@@ -1,4 +1,392 @@
-.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__container, .footer-section__left-top-container, .footer-section__subscribe-container, .footer-section__social-icons-container, .footer-section__social-icon-wrapper, .navbar__toggle, .navbar__right, .navbar__menu, .navbar {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper, .button {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper, .button {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .new-arrivals-card, .popular-trends-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .new-arrivals-card__image, .popular-trends-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .new-arrivals-card__title, .popular-trends-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .new-arrivals-card__features, .popular-trends-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .new-arrivals-card__price, .popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar__menu, .navbar, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper {
   display: flex;
   align-items: center;
 }
@@ -6,32 +394,37 @@
 .navbar {
   justify-content: space-between;
   z-index: 10;
-  gap: 5rem;
   flex: 1 0 auto;
+  gap: 3rem;
   margin: 1rem 5rem 4rem 5rem;
+  position: relative;
 }
 .navbar__brand {
   display: flex;
-  flex: 0.8 0 auto;
-  width: 4rem;
-  height: 4rem;
+  flex: 1;
+  min-width: 4rem;
+  min-height: 4rem;
+  height: 5rem;
+  width: 5rem;
 }
 .navbar__logo {
   max-width: 100%;
   max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .navbar__menu {
+  justify-content: space-evenly;
+  flex: 1;
   gap: 2rem;
-  flex: 0.8;
-  justify-content: center;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navbar__menu {
     display: none;
   }
 }
 .navbar__link {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.2rem;
@@ -42,9 +435,9 @@
   border-bottom: 2px solid #FC9918;
 }
 .navbar__right {
-  justify-content: center;
-  gap: 4rem;
-  flex: 1.2;
+  justify-content: space-between;
+  flex: 1;
+  gap: 2rem;
 }
 .navbar__checkbox-wrapper {
   display: flex;
@@ -91,7 +484,7 @@
 .navbar__hamburger-icon-wrapper {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navbar__hamburger-icon-wrapper {
     display: block;
     width: 1.5rem;
@@ -113,107 +506,30 @@
   max-width: 100%;
   max-height: 100%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navbar__icon--cart {
     display: none;
   }
 }
 
-.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__container, .footer-section__left-top-container, .footer-section__subscribe-container, .footer-section__social-icons-container, .footer-section__social-icon-wrapper, .button {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle {
   display: flex;
   align-items: center;
 }
 
-.button {
-  flex: 1 0 auto;
-  justify-content: center;
-  border: 1px solid #F14A16;
-  border-radius: 20px;
-  color: #F14A16;
-  justify-content: center;
-  transition-duration: 0.5s;
-  font-size: 1rem;
-  font-family: "Proxima Nova Condensed", sans-serif;
-  font-weight: 700;
-  line-height: 1.2rem;
-  gap: 0.8rem;
-  cursor: pointer;
-}
-.button__icon {
-  width: 1rem;
-  height: 1rem;
-}
-.button--login {
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.5rem 1.8rem;
-  border-radius: 15px;
-}
-@media screen and (max-width: 800px) {
-  .button--login {
-    display: none;
-  }
-}
-.button--cta {
-  width: 10rem;
-  height: 3rem;
-  padding: 0.2rem 1.8rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px #F14A16;
-}
-.button--secondary {
-  width: 10rem;
-  height: 3rem;
-  padding: 0.2rem 1.8rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--atc {
-  width: 8rem;
-  height: 2.5rem;
-  border: 2px solid #F14A16;
-  background: transparent;
-  box-shadow: 0px 0px 18px 0px #F14A16;
-}
-.button--bn {
-  width: 8rem;
-  height: 2.5rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-  box-shadow: 0px 0px 21px 0px;
-}
-.button--subscribe-btn {
-  width: 8rem;
-  height: 2.5rem;
-  background: #F14A16;
-  color: #E5E5E5;
-  border: none;
-}
-
-.hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__container, .footer-section__left-top-container, .footer-section__subscribe-container, .footer-section__social-icons-container, .footer-section__social-icon-wrapper, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container, .footer-section, .footer-section__left-container, .footer-section__right-container, .footer-section__logo-wrapper, .footer-section__left-top-middle-container, .footer-section__shop, .footer-section__country, .footer-section__support, .footer-section__about-us, .footer-section__contact-us, .footer-section__manufacturer, .footer-section__social-links, .footer-section__left-bottom-container, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content {
   display: flex;
   flex-direction: column;
 }
 
 .featured-card {
   align-items: center;
-  width: 14rem;
+  min-width: 14rem;
   background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
-  border: 1px solid rgba(255, 255, 255, 0.6980392157);
+  border: 1px solid #B9B9B9;
   border-radius: 25px;
 }
 .featured-card__image-wrapper {
@@ -250,51 +566,51 @@
   text-decoration: line-through;
 }
 
-.main-card-template, .new-arrivals-card, .popular-trends-card {
+.main-card-template, .popular-trends-card, .new-arrivals-card {
   border-radius: 50px;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
   overflow: hidden;
 }
-.main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper {
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
   justify-content: center;
   height: 50%;
   width: 100%;
 }
-.main-card-template__image, .new-arrivals-card__image, .popular-trends-card__image {
-  max-width: 100%;
-  max-height: 100%;
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content {
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
   padding: 1rem;
   gap: 1rem;
 }
-.main-card-template__title, .new-arrivals-card__title, .popular-trends-card__title {
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
-.main-card-template__features, .new-arrivals-card__features, .popular-trends-card__features {
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
   font-size: 0.8rem;
   line-height: 1.5rem;
   padding-left: 2rem;
 }
-.main-card-template__price, .new-arrivals-card__price, .popular-trends-card__price {
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #FC9918;
 }
-.main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper {
-  justify-content: center;
-  gap: 1rem;
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .popular-trends-card {
-  min-width: 30%;
   background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
   border: 1px solid #FFFFFF;
+  min-width: 22rem;
 }
 .popular-trends-card__title {
   font-size: 1.1rem;
@@ -315,73 +631,79 @@
   font-size: 1.3rem;
   line-height: 1.5rem;
 }
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .exclusive-offer, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle {
   display: flex;
   align-items: center;
 }
 
-.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero {
-  display: flex;
-  flex-direction: column;
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
 }
-
-* {
-  margin: 0;
-  padding: 0;
+.button__icon {
+  width: 1rem;
+  height: 1rem;
 }
-
-body {
-  box-sizing: border-box;
-  background: #070606;
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
 }
-
-.landing-page {
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  position: relative;
-  overflow-x: hidden;
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
 }
-
-.gradient-effect {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  overflow: hidden;
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
 }
-.gradient-effect__image {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
 }
-
-.hero-model {
-  height: 100%;
-  position: absolute;
-  bottom: 4%;
-  right: 0;
-  z-index: -2;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
-  box-shadow: 0 0 8px 8px #070606 inset;
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
 }
-.hero-model__image {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
 }
-.hero-model--lg-rectangle {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 80%;
-  height: 16%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #070606 100%);
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
 }
 
 .hero {
@@ -393,8 +715,13 @@ body {
   width: 46%;
   margin-bottom: 6rem;
 }
+@media screen and (max-width: 1000px) {
+  .hero__top-container {
+    width: 100%;
+  }
+}
 .hero__title {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
@@ -404,7 +731,7 @@ body {
   color: #F14A16;
 }
 .hero__description {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 250;
   font-size: 1.2rem;
   line-height: 1.6rem;
@@ -412,15 +739,27 @@ body {
   margin: 1rem 0 2rem 0;
 }
 .hero__buttons {
-  display: flex;
   gap: 1.8rem;
 }
 .hero__bottom-container {
   margin-bottom: 2rem;
 }
+@media screen and (max-width: 1000px) {
+  .hero__bottom-container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
 .hero__scroll-down-wrapper {
   justify-content: center;
   flex: 20%;
+}
+@media screen and (max-width: 1000px) {
+  .hero__scroll-down-wrapper {
+    width: 100%;
+  }
 }
 .hero__circular-div {
   justify-content: center;
@@ -429,6 +768,7 @@ body {
   padding: 0.5rem;
   border-radius: 50%;
   border: 1px solid #FFFFFF;
+  cursor: pointer;
 }
 .hero__arrow-icon {
   max-width: 100%;
@@ -441,27 +781,415 @@ body {
   justify-content: flex-end;
   flex: 80%;
   gap: 2rem;
+  overflow-x: auto;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
 }
 
 .popular-trends, .new-arrivals {
   padding: 4rem;
 }
 .popular-trends__container, .new-arrivals__container {
-  align-items: center;
   gap: 4rem;
 }
 .popular-trends__title, .new-arrivals__title {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 2.2rem;
   color: #FFFFFF;
+  text-align: center;
 }
 .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
-  gap: 2rem;
-  width: 100%;
+  gap: 3rem;
   padding: 1rem 0;
-  overflow-x: scroll;
+  overflow-x: auto;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
 }
 
 .why-buy-musify {
@@ -474,18 +1202,25 @@ body {
   gap: 1.5rem;
   background: linear-gradient(91.42deg, #370665 0%, #35589A 100%);
   border-radius: 25px;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   color: #FFFFFF;
 }
 .why-buy-musify__title {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
+  text-align: center;
 }
 .why-buy-musify__reason-wrapper {
   width: 100%;
   justify-content: space-between;
   gap: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .why-buy-musify__reason-wrapper {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
 }
 .why-buy-musify__reason {
   gap: 0.8rem;
@@ -500,38 +1235,266 @@ body {
   line-height: 2rem;
 }
 
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+}
+
 .exclusive-offer {
+  font-family: "Proxima Nova Regular", sans-serif;
+  color: #FFFFFF;
   padding: 4rem 6rem;
+}
+.exclusive-offer__title {
+  display: none;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+.exclusive-offer__title--desktop {
+  display: block;
+}
+@media screen and (max-width: 1000px) {
+  .exclusive-offer__title--desktop {
+    display: none;
+  }
+}
+.exclusive-offer__title--phone {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .exclusive-offer__title--phone {
+    display: block;
+  }
 }
 .exclusive-offer__container {
   justify-content: space-around;
-  width: 100%;
-  font-family: "Proxima Nova Condensed", sans-serif;
-  color: #FFFFFF;
+}
+@media screen and (max-width: 1000px) {
+  .exclusive-offer__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 .exclusive-offer__left-container {
-  width: 40%;
-  position: relative;
+  justify-content: center;
+  padding: 10%;
+  flex: 1;
 }
 .exclusive-offer__image-wrapper {
   justify-content: center;
   border-radius: 50%;
-  background: #35589A;
-  overflow: hidden;
+  min-width: 10rem;
+  min-width: 10rem;
+  position: relative;
 }
 .exclusive-offer__image {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .exclusive-offer__discount-div {
   justify-content: center;
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 5rem;
-  width: 5rem;
+  top: 5%;
+  left: 5%;
+  height: 4rem;
+  width: 4rem;
+  min-width: 3rem;
+  min-height: 3rem;
   padding: 1rem;
   border-radius: 50%;
   background: #370665;
@@ -539,21 +1502,17 @@ body {
 }
 .exclusive-offer__discount-text {
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
   text-align: center;
 }
 .exclusive-offer__right-container {
+  flex: 1;
   height: 100%;
   align-items: center;
   justify-content: center;
   gap: 4rem;
   padding: 2rem;
-}
-.exclusive-offer__title {
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 2.2rem;
 }
 .exclusive-offer__content {
   align-items: center;
@@ -584,7 +1543,203 @@ body {
   line-height: 4rem;
 }
 .exclusive-offer__buttons-wrapper {
+  justify-content: center;
+  width: 100%;
   gap: 1rem;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
 }
 
 .other-accessories {
@@ -595,7 +1750,7 @@ body {
   padding: 5rem;
 }
 .other-accessories__title {
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
@@ -604,13 +1759,14 @@ body {
 .other-accessories__container {
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .other-accessories__image-wrapper {
   justify-content: center;
   flex: 1 0 48%;
+  min-width: 20rem;
   border-radius: 25px;
-  background: #C4C4C4;
+  background: transparent;
   overflow: hidden;
 }
 .other-accessories__image {
@@ -618,6 +1774,394 @@ body {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .new-arrivals__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+}
+
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
 }
 
 .scan-qr {
@@ -649,7 +2193,7 @@ body {
   justify-content: center;
   text-align: center;
   gap: 1rem;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   color: #FFFFFF;
 }
 .scan-qr__title {
@@ -678,12 +2222,207 @@ body {
      object-fit: cover;
 }
 
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section__left-bottom-container, .footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__country, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__logo-wrapper, .footer-section__right-container, .footer-section__left-container, .footer-section, .featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  align-items: center;
+  min-width: 14rem;
+  background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 25px;
+}
+.featured-card__image-wrapper {
+  width: 6rem;
+  margin-top: -28%;
+}
+.featured-card__image {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.featured-card__content {
+  width: 100%;
+  padding: 0 0 0.5rem 1rem;
+  justify-content: flex-start;
+}
+.featured-card__title {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+.featured-card__price-wrapper {
+  gap: 0.8rem;
+}
+.featured-card__price {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #FC9918;
+}
+.featured-card__price--cross-out {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+.main-card-template, .popular-trends-card, .new-arrivals-card {
+  border-radius: 50px;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+.main-card-template__image-wrapper, .popular-trends-card__image-wrapper, .new-arrivals-card__image-wrapper {
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.main-card-template__image, .popular-trends-card__image, .new-arrivals-card__image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-card-template__content, .popular-trends-card__content, .new-arrivals-card__content {
+  padding: 1rem;
+  gap: 1rem;
+}
+.main-card-template__title, .popular-trends-card__title, .new-arrivals-card__title {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-card-template__features, .popular-trends-card__features, .new-arrivals-card__features {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-left: 2rem;
+}
+.main-card-template__price, .popular-trends-card__price, .new-arrivals-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FC9918;
+}
+.main-card-template__buttons-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__buttons-wrapper {
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.popular-trends-card {
+  background: linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%);
+  border: 1px solid #FFFFFF;
+  min-width: 22rem;
+}
+.popular-trends-card__title {
+  font-size: 1.1rem;
+}
+.popular-trends-card__price {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.new-arrivals-card {
+  min-width: 35%;
+  background: #370665;
+  border: 4px solid #35589A;
+}
+.new-arrivals-card__title {
+  font-size: 1.2rem;
+}
+.new-arrivals-card__price {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .footer-section__subscribe-container, .footer-section__left-top-container, .footer-section__container, .button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 10rem;
+  max-height: 10rem;
+  justify-content: center;
+  border: 1px solid #F14A16;
+  border-radius: 20px;
+  color: #F14A16;
+  justify-content: center;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button__icon {
+  width: 1rem;
+  height: 1rem;
+}
+.button--login {
+  padding: 0.5rem 1.8rem;
+  border-radius: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .button--login {
+    display: none;
+  }
+}
+.button--cta {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--secondary {
+  width: 10rem;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--atc {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  border: 2px solid #F14A16;
+  background: transparent;
+  box-shadow: 0px 0px 18px 0px #F14A16;
+}
+.button--bn {
+  flex: 1;
+  padding: 0.8rem 0.8rem;
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+  box-shadow: 0px 0px 21px 0px #F14A16;
+}
+.button--subscribe-btn {
+  background: #F14A16;
+  color: #E5E5E5;
+  border: none;
+}
+
 .footer-section {
   align-items: center;
   justify-content: center;
+  width: 100%;
   padding: 4rem 1rem 1rem 1rem;
   background: #370665;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Regular", sans-serif;
   color: #FFFFFF;
 }
 .footer-section__container {
@@ -799,4 +2538,79 @@ body {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+.button, .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__menu, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__container, .footer-section__left-top-container, .footer-section__subscribe-container, .footer-section__social-icons-container, .footer-section__social-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.featured-card, .featured-card__content, .main-card-template, .main-card-template__content, .popular-trends-card, .popular-trends-card__content, .new-arrivals-card, .new-arrivals-card__content, .hero, .hero__top-container, .popular-trends__container, .why-buy-musify__container, .exclusive-offer, .exclusive-offer__right-container, .exclusive-offer__content, .exclusive-offer__time, .other-accessories, .new-arrivals__container, .scan-qr__right-container, .footer-section, .footer-section__left-container, .footer-section__right-container, .footer-section__logo-wrapper, .footer-section__left-top-middle-container, .footer-section__shop, .footer-section__country, .footer-section__support, .footer-section__about-us, .footer-section__contact-us, .footer-section__manufacturer, .footer-section__social-links, .footer-section__left-bottom-container {
+  display: flex;
+  flex-direction: column;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: #070606;
+  width: 100vw;
+}
+
+.landing-page {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.gradient-effect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.gradient-effect__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero-model {
+  height: 94%;
+  position: absolute;
+  bottom: 4%;
+  right: 0;
+  z-index: -2;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 92.26%, rgba(0, 0, 0, 0.2) 105.89%);
+  box-shadow: 0 0 8px 8px #070606 inset;
+}
+@media screen and (max-width: 1000px) {
+  .hero-model {
+    display: none;
+  }
+}
+.hero-model__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero-model--lg-rectangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 16%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #070606 100%);
 }/*# sourceMappingURL=styles.css.map */

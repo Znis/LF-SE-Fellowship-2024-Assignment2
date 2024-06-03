@@ -1,5 +1,7 @@
-@import 'variables';
-@import 'media-queries';
+@import './modules/variables';
+@import './modules/media-queries';
+@import './modules/cards';
+@import './modules/buttons';
 
 
 %align-center{
@@ -10,26 +12,30 @@
   @extend %align-center;
   justify-content: space-between;
   z-index: 10;
-  gap: 5rem;
   flex: 1 0 auto;
+  gap: 3rem;
   margin: 1rem 5rem 4rem 5rem;
+  position: relative;
 
 
   &__brand {
     display: flex;
-    flex: 0.8 0 auto;
-    width: 4rem;
-    height: 4rem;
+    flex: 1;
+    min-width: 4rem;
+    min-height: 4rem;
+    height: 5rem;
+    width: 5rem;
   }
   &__logo {
    max-width: 100%;
    max-height: 100%;
+   object-fit: cover
   }
 &__menu{
   @extend %align-center;
-  gap: 2rem;
-  flex:0.8;
-  justify-content: center;
+  justify-content: space-evenly;
+flex: 1;
+gap: 2rem;
 
   @include phone{
     display: none;
@@ -41,7 +47,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #FFFFFF;
+  color: $text_color;
   text-decoration: none;
 
   &--active{
@@ -50,9 +56,9 @@
 }
 &__right{
 @extend %align-center;
-justify-content: center;
-gap: 4rem;
-flex:1.2;
+justify-content: space-between;
+flex: 1;
+gap: 2rem;
 
 
 
@@ -79,7 +85,7 @@ flex:1.2;
     position: absolute;
     top: 4px;
     left: 6px;
-    background: #888888;
+    background: $toggle-circle-background-color;
     border-radius: 50%;
     transition: 0.3s;
   }
@@ -124,10 +130,12 @@ flex:1.2;
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+    
   }
   &__icon {
     max-width: 100%;
     max-height: 100%;
+    
 
     &--cart{
       @include phone{

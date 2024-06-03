@@ -1,0 +1,23 @@
+@import './modules/variables';
+@import './modules/media-queries';
+@import './modules/cards';
+@import './modules/buttons';
+
+.new-arrivals{
+    @extend .popular-trends;
+
+    &__container{
+        @extend .popular-trends__container;
+
+    }
+
+    &__title{
+        @extend .popular-trends__title;
+
+    }
+
+    &__card-wrapper{
+        @extend .popular-trends__card-wrapper;
+
+    }
+}

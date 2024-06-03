@@ -1,0 +1,29 @@
+@import './modules/variables';
+@import './modules/media-queries';
+@import './modules/cards';
+@import './modules/buttons';
+
+.popular-trends{
+    padding: 4rem;
+    &__container{
+        @extend %flex-column;
+        gap: 4rem;
+    }
+
+    &__title{
+      font-family: $proxima_font;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 2.2rem;
+      color: $text_color;  
+      text-align: center
+    }
+
+    &__card-wrapper{
+        @extend %align-center;
+        gap: 3rem;
+        padding: 1rem 0;
+        overflow-x: auto;
+    
+    }
+}
