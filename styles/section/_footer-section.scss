@@ -17,6 +17,7 @@
       flex-direction: column;
       gap: 2rem;
     }
+   
   }
 
   &__left-container {
@@ -26,6 +27,11 @@
   &__right-container {
     @extend %flex-column;
     gap: 2rem;
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+    }
   }
   &__left-top-container {
     display: flex;
@@ -36,6 +42,9 @@
     @include phone {
       flex-direction: column;
       gap: 2rem;
+    }
+    @include tablet {
+      gap: 5rem;
     }
   }
   &__logo-wrapper {
@@ -53,6 +62,7 @@
         max-height: 8rem;
         margin: 0 auto;
       }
+      
     }
 
     &--desktop {
@@ -103,6 +113,9 @@
     @include phone {
       display: none;
     }
+    @include tablet {
+      display: none;
+    }
   }
   &__support {
     @extend %flex-column;
@@ -123,6 +136,10 @@
   &__social-links {
     @extend %flex-column;
     gap: 0.8rem;
+    @include tablet {
+      margin: 0 auto;
+      align-items: center;
+    }
   }
   &__subscribe-container {
     display: flex;
@@ -142,6 +159,9 @@
       @include phone {
         display: none;
       }
+      @include tablet {
+        display: none;
+      }
     }
   }
   &__extra-content-adjustment {
@@ -151,6 +171,10 @@
 
     @include phone {
       display: flex;
+    }
+    @include tablet {
+      display: flex;
+      margin: 0 auto;
     }
   }
 

@@ -20,6 +20,10 @@
     @include phone {
       justify-content: center;
     }
+    @include tablet {
+      justify-content: center;
+    }
+  
   }
   &__logo {
     max-width: 100%;
@@ -37,6 +41,10 @@
     @include phone {
       display: none;
     }
+    @include tablet {
+      display: none;
+    }
+  
   }
   &__link {
     font-family: var(--primary-font);
@@ -109,6 +117,13 @@
     cursor: pointer;
 
     @include phone {
+      display: block;
+      width: 1.5rem;
+      height: 1rem;
+      flex: 1 0 auto;
+      cursor: pointer;
+    }
+    @include tablet {
       display: block;
       width: 1.5rem;
       height: 1rem;

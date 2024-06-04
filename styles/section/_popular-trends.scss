@@ -17,7 +17,9 @@
   &__card-wrapper {
     @extend %align-center;
     gap: 3rem;
-    padding: 1rem 0;
+    padding: 1rem;
+    box-shadow: 28px 0px 20px -20px var(--background-color-purple);
+    border-radius: 50px;
     overflow-x: auto;
   }
 }

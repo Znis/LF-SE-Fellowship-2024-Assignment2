@@ -58,11 +58,19 @@
 }
 .main-card-template {
   @extend %flex-column;
+  min-width: 22rem;
   border-radius: 50px;
   font-family: var(--primary-font);
   font-weight: 400;
   color: var(--global-font-color);
   overflow: hidden;
+  @include tablet {
+    min-width: 20rem;
+  }
+  @include phone {
+    min-width: 18rem;
+  }
+
 
   &__image-wrapper {
     @extend %align-center;
@@ -106,7 +114,6 @@
 .popular-trends-card {
   @extend .main-card-template;
   border: 1px solid var(--color-white);
-  min-width: 22rem;
   background: linear-gradient(
     163.76deg,
     rgba(255, 255, 255, 0.7) 0%,
@@ -146,7 +153,6 @@
 
 .new-arrivals-card {
   @extend .main-card-template;
-  min-width: 22rem;
   background: var(--background-color-purple);
   border: 4px solid var(--background-color-blue);
   @include hoverSolidBorder($size: 4px);

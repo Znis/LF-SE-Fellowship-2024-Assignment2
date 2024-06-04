@@ -32,6 +32,9 @@
     @include phone {
       display: none;
     }
+    @include tablet {
+      display: flex;
+    }
   }
   &--cta {
     width: 10rem;
@@ -41,10 +44,6 @@
     border: none;
     box-shadow: 0px 0px 21px 0px var(--button-background-color);
     @include hoverBoxShadow;
-
-    // @include phone{
-    //     display: none;
-    //   }
   }
 
   &--secondary {
@@ -55,9 +54,6 @@
     box-shadow: 0px 0px 18px 0px var(--button-background-color);
     @include hoverBoxShadow;
 
-    // @include phone{
-    //     display: none;
-    //   }
   }
 
   &--atc {
@@ -85,6 +81,9 @@
     @include hoverBoxShadow;
 
     @include phone {
+      margin: 0 auto;
+    }
+    @include tablet {
       margin: 0 auto;
     }
   }
