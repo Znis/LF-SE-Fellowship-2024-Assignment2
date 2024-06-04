@@ -1,5 +1,6 @@
 .navbar {
   @extend %align-center;
+  flex: 10%;
   justify-content: space-between;
   z-index: 10;
   flex: 1 0 auto;

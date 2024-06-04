@@ -1,7 +1,9 @@
 .landing-page {
+  @extend %flex-column;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100% ;
   overflow: hidden;
   position: relative;
   @include phone{
@@ -63,16 +65,15 @@
 
 .hero {
   @extend %flex-column;
-  margin-left: auto;
-  margin-right: auto;
+flex:90%;
   padding: 2rem 8%;
+  justify-content: space-between;
+  align-content: space-between;
   gap: 2rem;
-
 
   &__top-container {
     @extend %flex-column;
     width: 46%;
-
     @include phone {
       width: 100%;
     }
@@ -118,8 +119,8 @@
   &__scroll-down-wrapper {
     @extend %align-center;
     justify-content: center;
+    margin-left: 10%;
     margin-top: 4rem;
-    flex: 1;
     @include phone {
       width: 100%;
     }

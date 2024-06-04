@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
+.footer-section__social-links, .footer-section__manufacturer, .footer-section__contact-us, .footer-section__about-us, .footer-section__support, .footer-section__shop, .footer-section__left-top-middle-container, .footer-section__right-container, .footer-section__left-container, .footer-section, .scan-qr__right-container, .other-accessories, .exclusive-offer__time, .exclusive-offer__content, .exclusive-offer__right-container, .exclusive-offer, .why-buy-musify__container, .popular-trends__container, .new-arrivals__container, .hero__top-container, .hero, .landing-page, .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content, .main-card-template, .new-arrivals-card, .popular-trends-card, .featured-card__content, .featured-card {
   display: flex;
   flex-direction: column;
 }
@@ -373,6 +373,7 @@ li {
 }
 
 .navbar {
+  flex: 10%;
   justify-content: space-between;
   z-index: 10;
   flex: 1 0 auto;
@@ -518,7 +519,8 @@ li {
 .landing-page {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -576,9 +578,10 @@ li {
 }
 
 .hero {
-  margin-left: auto;
-  margin-right: auto;
+  flex: 90%;
   padding: 2rem 8%;
+  justify-content: space-between;
+  align-content: space-between;
   gap: 2rem;
 }
 .hero__top-container {
@@ -624,8 +627,8 @@ li {
 }
 .hero__scroll-down-wrapper {
   justify-content: center;
+  margin-left: 10%;
   margin-top: 4rem;
-  flex: 1;
 }
 @media screen and (max-width: 1000px) {
   .hero__scroll-down-wrapper {
