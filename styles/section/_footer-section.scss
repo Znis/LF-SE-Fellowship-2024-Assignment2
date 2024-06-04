@@ -1,12 +1,10 @@
-
-
 .footer-section {
   @extend %flex-column;
   align-items: center;
   justify-content: center;
   padding: 4rem 4rem 1rem 4rem;
   background: var(--background-color-purple);
-  font-family:  var(--primary-font);
+  font-family: var(--primary-font);
   color: var(--global-font-color);
   gap: 2rem;
 
@@ -91,7 +89,7 @@
     color: var(--global-font-color);
     text-decoration: none;
     cursor: pointer;
-    &:hover{
+    &:hover {
       text-decoration: underline;
     }
   }
@@ -183,7 +181,7 @@
     border-radius: 50%;
     background: var(--color-white);
     overflow: hidden;
-    &:hover{
+    &:hover {
       scale: 1.2;
       transition: scale 0.5s;
     }

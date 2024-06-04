@@ -1,4 +1,3 @@
-
 const body = document.querySelector("body");
 
 const themeToggleBtn = document.getElementById("theme-toggle");
@@ -9,45 +8,44 @@ const arrowBtn = document.getElementById("hero__arrow-icon");
 const hamburgerBtn = document.getElementById("navbar__hamburger-icon");
 const secondTimer = document.getElementById("exclusive-offer__timer-second");
 
-
 var sec = parseInt(secondTimer.textContent);
 var displaySec = sec.toString();
 
 setInterval(function () {
   secondTimer.innerText = displaySec;
-  sec < 60 ? sec += 1 : sec = 0;
-  sec < 10 ? displaySec = "0" + sec.toString() : displaySec = sec.toString();
+  sec < 60 ? (sec += 1) : (sec = 0);
+  sec < 10
+    ? (displaySec = "0" + sec.toString())
+    : (displaySec = sec.toString());
 }, 1000);
 
-function themeToggle(){
-    const popularTrendsCard = document.querySelectorAll(".popular-trends-card");
-    if(!body.classList.length){
-        cartBtn.src = "./images/cart-icon-white.svg";
-        searchBtn.src = "./images/search-icon-white.svg";
-        arrowBtn.src = "./images/arrow-bottom-icon-white.svg";
-        hamburgerBtn.src = "./images/hamburger-icon-white.png";
-        gradientEffect.style.display = "block";
+function themeToggle() {
+  const popularTrendsCard = document.querySelectorAll(".popular-trends-card");
+  if (!body.classList.length) {
+    cartBtn.src = "./images/cart-icon-white.svg";
+    searchBtn.src = "./images/search-icon-white.svg";
+    arrowBtn.src = "./images/arrow-bottom-icon-white.svg";
+    hamburgerBtn.src = "./images/hamburger-icon-white.png";
+    gradientEffect.style.display = "block";
 
-        popularTrendsCard.forEach(element => {
-            element.style.background = "linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%)";
-        
-          });
-          
-        body.classList.toggle("dark-mode");
-    } else {
-        cartBtn.src = "./images/cart-icon-black.svg";
-        searchBtn.src = "./images/search-icon-black.svg";
-        arrowBtn.src = "./images/arrow-bottom-icon-black.svg";
-        hamburgerBtn.src = "./images/hamburger-icon-black.png";
-        gradientEffect.style.display = "none";
+    popularTrendsCard.forEach((element) => {
+      element.style.background =
+        "linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%)";
+    });
 
-        popularTrendsCard.forEach(element => {
-            element.style.background = "#282828";
-        
-          });
+    body.classList.toggle("dark-mode");
+  } else {
+    cartBtn.src = "./images/cart-icon-black.svg";
+    searchBtn.src = "./images/search-icon-black.svg";
+    arrowBtn.src = "./images/arrow-bottom-icon-black.svg";
+    hamburgerBtn.src = "./images/hamburger-icon-black.png";
+    gradientEffect.style.display = "none";
 
-        body.classList.toggle("dark-mode");
-    }
+    popularTrendsCard.forEach((element) => {
+      element.style.background = "#282828";
+    });
+
+    body.classList.toggle("dark-mode");
+  }
 }
 themeToggleBtn.onclick = themeToggle;
-

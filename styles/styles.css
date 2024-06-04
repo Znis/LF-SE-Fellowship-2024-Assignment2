@@ -62,7 +62,9 @@
   --body-background-color: #070606;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
 }
@@ -75,7 +77,8 @@ body {
   background-color: var(--body-background-color);
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
 }
 
