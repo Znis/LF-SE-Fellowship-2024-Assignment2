@@ -377,7 +377,7 @@ li {
   z-index: 10;
   flex: 1 0 auto;
   gap: 3rem;
-  padding: 1rem 5rem 4rem 5rem;
+  padding: 1rem 8% 4rem 8%;
 }
 @media screen and (max-width: 1000px) {
   .navbar {
@@ -518,7 +518,14 @@ li {
 .landing-page {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  height: 100vh;
+  overflow: hidden;
   position: relative;
+}
+@media screen and (max-width: 1000px) {
+  .landing-page {
+    height: 100%;
+  }
 }
 
 .gradient-effect {
@@ -571,11 +578,11 @@ li {
 .hero {
   margin-left: auto;
   margin-right: auto;
-  padding: 4rem;
+  padding: 2rem 8%;
+  gap: 2rem;
 }
 .hero__top-container {
   width: 46%;
-  margin-bottom: 4rem;
 }
 @media screen and (max-width: 1000px) {
   .hero__top-container {
@@ -653,7 +660,7 @@ li {
 }
 
 .popular-trends, .new-arrivals {
-  padding: 4rem;
+  padding: 4rem 8%;
 }
 .popular-trends__container, .new-arrivals__container {
   gap: 4rem;
@@ -673,7 +680,7 @@ li {
 }
 
 .why-buy-musify {
-  padding: 4rem;
+  padding: 4rem 8%;
 }
 .why-buy-musify__container {
   align-items: center;
@@ -719,7 +726,7 @@ li {
   font-family: var(--primary-font);
   color: var(--global-font-color);
   gap: 4rem;
-  padding: 4rem 6rem;
+  padding: 4rem 8%;
 }
 .exclusive-offer__title {
   display: none;
@@ -851,7 +858,7 @@ li {
   justify-content: center;
   text-align: center;
   gap: 4rem;
-  padding: 4rem;
+  padding: 4rem 8%;
 }
 .other-accessories__title {
   font-family: var(--primary-font);
@@ -890,7 +897,7 @@ li {
 }
 
 .scan-qr {
-  padding: 4rem;
+  padding: 4rem 8%;
 }
 .scan-qr__container {
   justify-content: space-around;
@@ -950,7 +957,7 @@ li {
 .footer-section {
   align-items: center;
   justify-content: center;
-  padding: 4rem 4rem 1rem 4rem;
+  padding: 4rem 8% 1rem 8%;
   background: var(--background-color-purple);
   font-family: var(--primary-font);
   color: var(--global-font-color);
@@ -959,7 +966,7 @@ li {
 .footer-section__container {
   display: flex;
   align-items: flex-start;
-  gap: 8rem;
+  gap: 7rem;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 1000px) {
