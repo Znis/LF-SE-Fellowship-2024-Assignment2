@@ -20,7 +20,11 @@ setInterval(function () {
 }, 1000);
 
 function themeToggle() {
+  var x = window.matchMedia("(max-width: 1000px)")
   const popularTrendsCard = document.querySelectorAll(".popular-trends-card");
+  const featuredCard = document.querySelectorAll(".featured-card__content");
+
+
   if (!body.classList.length) {
     cartBtn.src = "./images/cart-icon-white.svg";
     searchBtn.src = "./images/search-icon-white.svg";
@@ -31,6 +35,9 @@ function themeToggle() {
     popularTrendsCard.forEach((element) => {
       element.style.background =
         "linear-gradient(163.76deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100.82%)";
+    });
+    featuredCard.forEach((element) => {
+      element.style.background = "linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%)";
     });
 
     body.classList.toggle("dark-mode");
@@ -44,6 +51,14 @@ function themeToggle() {
     popularTrendsCard.forEach((element) => {
       element.style.background = "#282828";
     });
+    if(x.matches){
+      featuredCard.forEach((element) => {
+        element.style.background = "#282828B2";
+        element.style.color = "#FFFFFF";
+        
+      });
+    }
+    
 
     body.classList.toggle("dark-mode");
   }
