@@ -92,6 +92,9 @@
     color: var(--global-font-color);
     text-decoration: none;
     cursor: pointer;
+    &:hover{
+      text-decoration: underline;
+    }
   }
   &__shop {
     @extend %flex-column;

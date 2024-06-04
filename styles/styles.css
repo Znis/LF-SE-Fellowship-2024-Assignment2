@@ -1804,6 +1804,9 @@
   text-decoration: none;
   cursor: pointer;
 }
+.footer-section__link:hover {
+  text-decoration: underline;
+}
 .footer-section__shop {
   gap: 0.8rem;
 }
