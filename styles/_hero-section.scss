@@ -102,6 +102,10 @@
     border-radius: 50%;
     border: 1px solid var(--primary-font-color);
     cursor: pointer;
+    &:hover{
+        scale: 1.2;
+        transition: scale 0.5s;
+      }
   }
   &__arrow-icon {
     max-width: 100%;

@@ -54,6 +54,21 @@
     min-width: 10rem;
     min-width: 10rem;
     position: relative;
+    @keyframes changeScale {
+      from {
+        scale: 1;
+      }
+    
+      to {
+        scale: 0.8;
+      }
+    }
+
+  animation-duration: 1.2s;
+  animation-name: changeScale;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
   }
   &__image {
     max-width: 100%;

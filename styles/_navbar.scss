@@ -52,6 +52,10 @@
     line-height: 1.2rem;
     color: var(--primary-font-color);
     text-decoration: none;
+    &:hover{
+      scale: 1.2;
+      transition: scale 0.5s;
+    }
 
     &--active {
       border-bottom: 2px solid var(--menu-active-link-color);
@@ -112,6 +116,7 @@
   }
   &__hamburger-icon-wrapper {
     display: none;
+    cursor: pointer;
 
     @include phone {
       display: block;
@@ -129,6 +134,10 @@
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
+    &:hover{
+      scale: 1.2;
+      transition: scale 0.5s;
+    }
   }
   &__icon {
     max-width: 100%;
