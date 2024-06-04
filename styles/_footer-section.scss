@@ -181,6 +181,10 @@
     border-radius: 50%;
     background: var(--color-white);
     overflow: hidden;
+    &:hover{
+      scale: 1.2;
+      transition: scale 0.5s;
+    }
   }
   &__social-icon {
     max-width: 100%;

@@ -1884,6 +1884,10 @@
   background: var(--color-white);
   overflow: hidden;
 }
+.footer-section__social-icon-wrapper:hover {
+  scale: 1.2;
+  transition: scale 0.5s;
+}
 .footer-section__social-icon {
   max-width: 100%;
   max-height: 100%;
