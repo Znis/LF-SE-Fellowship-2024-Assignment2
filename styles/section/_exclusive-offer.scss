@@ -1,5 +1,4 @@
-@import "./modules/variables";
-@import "./modules/media-queries";
+
 
 .exclusive-offer {
   @extend %flex-column;
@@ -54,15 +53,6 @@
     min-width: 10rem;
     min-width: 10rem;
     position: relative;
-    @keyframes changeScale {
-      from {
-        scale: 1;
-      }
-    
-      to {
-        scale: 0.8;
-      }
-    }
 
   animation-duration: 1.2s;
   animation-name: changeScale;

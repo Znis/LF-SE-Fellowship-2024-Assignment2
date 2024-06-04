@@ -1,20 +1,30 @@
+//extend and inheritance
 %align-center {
-    display: flex;
-    align-items: center;
-  }
-  
-  %flex-column {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  align-items: center;
+}
 
-  @font-face {
-    font-family: proximaNova;
-    src: url(../fonts/Mark_Simonson_Proxima_Nova_Regular.otf);
-  }
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
-:root{
- 
+
+
+//variables
+$primary-font: proximaNova;
+$price-text-color: #fc9918;
+$menu-active-link-color: #fc9918;
+$button-background-color: #f14a16;
+$button-text-color: #e5e5e5;
+$featured-card-color: #b9b9b9;
+$color-white: #ffffff;
+$color-orange: #f14a16;
+$global-font-color: #ffffff;
+
+
+
+:root {
   --primary-font: proximaNova;
 
   --price-text-color: #fc9918;
@@ -22,14 +32,11 @@
   --button-background-color: #f14a16;
   --button-text-color: #e5e5e5;
   --featured-card-color: #b9b9b9;
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
   --color-orange: #f14a16;
-  --global-font-color: #FFFFFF;
+  --global-font-color: #ffffff;
 
-
-//diff
-
-
+  //diff
 
   --primary-font-color: #000000;
   --secondary-font-color: #282828;
@@ -37,34 +44,23 @@
   --highlighted-font-color: #f14a16;
   --product-price-color: #fc9918;
 
-
-  --toggle-background-color: #FFFFFF;
+  --toggle-background-color: #ffffff;
   --toggle-circle-background-color: #888888;
-  --toggle-background-shadow-color: #B9B9B9;
+  --toggle-background-shadow-color: #b9b9b9;
 
   --background-color-blue: #35589a;
   --background-color-purple: #370665;
   --background-color-grey: #c4c4c4;
- 
 
   --discount-div-shadow: #00000040;
-  --lg-gradient-color: #FAFAFA;
+  --lg-gradient-color: #fafafa;
 
+  --hero-model-box-shadow: #fafafa;
 
-  --hero-model-box-shadow: #FAFAFA;
-
-
-
-
-
-  --body-background-color: #FAFAFA;
-
-
+  --body-background-color: #fafafa;
 }
 
-
-.dark-mode{
-
+.dark-mode {
   --primary-font: proximaNova;
 
   --price-text-color: #fc9918;
@@ -72,42 +68,30 @@
   --button-background-color: #f14a16;
   --button-text-color: #e5e5e5;
   --featured-card-color: #b9b9b9;
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
   --color-orange: #f14a16;
-  --global-font-color: #FFFFFF;
+  --global-font-color: #ffffff;
 
-//diff
+  //diff
 
-
-
-  --primary-font-color: #FFFFFF;
-  --secondary-font-color: #A4A4A4;
+  --primary-font-color: #ffffff;
+  --secondary-font-color: #a4a4a4;
   --alternate-font-color: #000000;
   --highlighted-font-color: #f14a16;
   --product-price-color: #fc9918;
 
-
   --toggle-background-color: #000000;
   --toggle-circle-background-color: #888888;
   --toggle-background-shadow-color: #000000;
-  
 
   --background-color-blue: #35589a;
   --background-color-purple: #370665;
   --background-color-grey: #c4c4c4;
- 
 
   --discount-div-shadow: #00000040;
   --lg-gradient-color: #070606;
 
-
   --hero-model-box-shadow: #070606;
 
-
-
-
   --body-background-color: #070606;
-
-
-  
 }

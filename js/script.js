@@ -7,10 +7,17 @@ const cartBtn = document.getElementById("navbar__cart-icon");
 const searchBtn = document.getElementById("navbar__search-icon");
 const arrowBtn = document.getElementById("hero__arrow-icon");
 const hamburgerBtn = document.getElementById("navbar__hamburger-icon");
+const secondTimer = document.getElementById("exclusive-offer__timer-second");
 
 
+var sec = parseInt(secondTimer.textContent);
+var displaySec = sec.toString();
 
-
+setInterval(function () {
+  secondTimer.innerText = displaySec;
+  sec < 60 ? sec += 1 : sec = 0;
+  sec < 10 ? displaySec = "0" + sec.toString() : displaySec = sec.toString();
+}, 1000);
 
 function themeToggle(){
     const popularTrendsCard = document.querySelectorAll(".popular-trends-card");
