@@ -26,10 +26,7 @@
     border-radius: 25px;
     background: transparent;
     overflow: hidden;
-    &:hover {
-      scale: 1.05;
-      transition: scale 0.5s;
-    }
+    @include hoverScale($scaleFactor: 1.05);
     @include phone {
       border: 2px solid var(--color-white);
     }

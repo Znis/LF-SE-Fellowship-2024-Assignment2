@@ -89,9 +89,7 @@
     color: var(--global-font-color);
     text-decoration: none;
     cursor: pointer;
-    &:hover {
-      text-decoration: underline;
-    }
+    @include hoverTextDecoration;
   }
   &__shop {
     @extend %flex-column;
@@ -181,10 +179,7 @@
     border-radius: 50%;
     background: var(--color-white);
     overflow: hidden;
-    &:hover {
-      scale: 1.2;
-      transition: scale 0.5s;
-    }
+    @include hoverScale;
   }
   &__social-icon {
     max-width: 100%;

@@ -1,0 +1,25 @@
+//mixins
+@mixin hoverScale($scaleFactor: 1.2, $transitionDuration: 0.5s){
+    &:hover{
+      scale: $scaleFactor;
+      transition: scale $transitionDuration;
+    }
+  }
+  
+  @mixin hoverTextDecoration($textDecoration: underline){
+    &:hover{
+      text-decoration: $textDecoration;
+    }
+  }
+  
+  @mixin hoverSolidBorder($size: 1px, $color: var(--color-orange)){
+    &:hover{
+      border: $size solid $color;
+    }
+  }
+  
+  @mixin hoverBoxShadow($spreadSize: 42px, $color: var(--button-background-color)){
+    &:hover{
+      box-shadow: 0px 0px $spreadSize 0px $color;
+    }
+  }

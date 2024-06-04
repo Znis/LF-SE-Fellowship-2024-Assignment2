@@ -32,9 +32,7 @@
     padding-left: 1rem;
     padding-top: 28%;
     justify-content: flex-start;
-    &:hover {
-      border: 1px solid var(--color-orange);
-    }
+    @include hoverSolidBorder;
   }
   &__title {
     font-size: 1.1rem;
@@ -114,9 +112,7 @@
     rgba(255, 255, 255, 0.7) 0%,
     rgba(255, 255, 255, 0.1) 100.82%
   );
-  &:hover {
-    border: 1px solid var(--color-orange);
-  }
+  @include hoverSolidBorder;
 
   &__title {
     @extend .main-card-template__title;
@@ -153,9 +149,7 @@
   min-width: 22rem;
   background: var(--background-color-purple);
   border: 4px solid var(--background-color-blue);
-  &:hover {
-    border: 4px solid var(--color-orange);
-  }
+  @include hoverSolidBorder($size: 4px);
   &__title {
     @extend .main-card-template__title;
     font-size: 1.2rem;

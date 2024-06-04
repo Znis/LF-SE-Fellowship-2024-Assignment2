@@ -44,10 +44,7 @@
     line-height: 1.2rem;
     color: var(--primary-font-color);
     text-decoration: none;
-    &:hover {
-      scale: 1.2;
-      transition: scale 0.5s;
-    }
+    @include hoverScale;
 
     &--active {
       border-bottom: 2px solid var(--menu-active-link-color);
@@ -126,10 +123,7 @@
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
-    &:hover {
-      scale: 1.2;
-      transition: scale 0.5s;
-    }
+    @include hoverScale;
   }
   &__icon {
     max-width: 100%;
