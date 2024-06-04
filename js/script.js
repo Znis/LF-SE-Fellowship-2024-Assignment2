@@ -19,12 +19,34 @@ setInterval(function () {
     : (displaySec = sec.toString());
 }, 1000);
 
+
+function featuredCardColorChanger(){
+  if (!body.classList.length) {
+  const featuredCard = document.querySelectorAll(".featured-card__content");
+  const featuredCardCrossOutPrice = document.querySelectorAll(".featured-card__price--cross-out");
+  var x = window.matchMedia("(max-width: 1000px)");
+  if(x.matches){
+    featuredCard.forEach((element) => {
+      element.style.background = "#282828B2";
+      element.style.color = "#FFFFFF";
+    });
+    featuredCardCrossOutPrice.forEach((element) => {
+      element.style.color = "#FFFFFF";
+    });
+  }else{
+    featuredCard.forEach((element) => {
+      element.style.background = "linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%)";
+    });
+  }
+}
+}
+
 function themeToggle() {
   var x = window.matchMedia("(max-width: 1000px)")
   const popularTrendsCard = document.querySelectorAll(".popular-trends-card");
   const featuredCard = document.querySelectorAll(".featured-card__content");
-
-
+  const featuredCardCrossOutPrice = document.querySelectorAll(".featured-card__price--cross-out");
+  
   if (!body.classList.length) {
     cartBtn.src = "./images/cart-icon-white.svg";
     searchBtn.src = "./images/search-icon-white.svg";
@@ -55,7 +77,9 @@ function themeToggle() {
       featuredCard.forEach((element) => {
         element.style.background = "#282828B2";
         element.style.color = "#FFFFFF";
-        
+      });
+      featuredCardCrossOutPrice.forEach((element) => {
+        element.style.color = "#FFFFFF";
       });
     }
     
@@ -64,3 +88,4 @@ function themeToggle() {
   }
 }
 themeToggleBtn.onclick = themeToggle;
+window.onresize = featuredCardColorChanger;
