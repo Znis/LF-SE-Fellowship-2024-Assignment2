@@ -6,6 +6,7 @@ const gradientEffect = document.getElementById("gradient-effect");
 const cartBtn = document.getElementById("navbar__cart-icon");
 const searchBtn = document.getElementById("navbar__search-icon");
 const arrowBtn = document.getElementById("hero__arrow-icon");
+const hamburgerBtn = document.getElementById("navbar__hamburger-icon");
 
 
 
@@ -17,6 +18,7 @@ function themeToggle(){
         cartBtn.src = "./images/cart-icon-white.svg";
         searchBtn.src = "./images/search-icon-white.svg";
         arrowBtn.src = "./images/arrow-bottom-icon-white.svg";
+        hamburgerBtn.src = "./images/hamburger-icon-white.png";
         gradientEffect.style.display = "block";
 
         popularTrendsCard.forEach(element => {
@@ -29,6 +31,7 @@ function themeToggle(){
         cartBtn.src = "./images/cart-icon-black.svg";
         searchBtn.src = "./images/search-icon-black.svg";
         arrowBtn.src = "./images/arrow-bottom-icon-black.svg";
+        hamburgerBtn.src = "./images/hamburger-icon-black.png";
         gradientEffect.style.display = "none";
 
         popularTrendsCard.forEach(element => {

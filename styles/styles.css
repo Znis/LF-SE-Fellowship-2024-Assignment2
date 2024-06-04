@@ -1369,8 +1369,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 5rem;
-  padding: 5rem;
+  gap: 4rem;
+  padding: 4rem;
 }
 .other-accessories__title {
   font-family: var(--primary-font);
@@ -1847,6 +1847,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 2rem;
+  text-align: center;
 }
 
 .featured-card__price-wrapper, .main-card-template__image-wrapper, .main-card-template__buttons-wrapper, .popular-trends-card__image-wrapper, .popular-trends-card__buttons-wrapper, .new-arrivals-card__image-wrapper, .new-arrivals-card__buttons-wrapper, .navbar, .navbar__right, .navbar__toggle, .hero__buttons, .hero__bottom-container, .hero__scroll-down-wrapper, .hero__circular-div, .featured-card-wrapper, .popular-trends__card-wrapper, .why-buy-musify, .why-buy-musify__reason-wrapper, .why-buy-musify__reason, .exclusive-offer__container, .exclusive-offer__left-container, .exclusive-offer__image-wrapper, .exclusive-offer__discount-div, .exclusive-offer__time-wrapper, .exclusive-offer__time-container, .exclusive-offer__buttons-wrapper, .other-accessories__container, .other-accessories__image-wrapper, .new-arrivals__card-wrapper, .scan-qr, .scan-qr__container, .scan-qr__left-container, .scan-qr__image-wrapper, .scan-qr__app-download-container, .scan-qr__app-download-image-wrapper, .footer-section__social-icons-container, .footer-section__social-icon-wrapper {
@@ -1893,6 +1894,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
