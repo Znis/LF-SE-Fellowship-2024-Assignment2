@@ -8,6 +8,7 @@ const arrowBtn = document.getElementById("hero__arrow-icon");
 const hamburgerBtn = document.getElementById("navbar__hamburger-icon");
 const secondTimer = document.getElementById("exclusive-offer__timer-second");
 
+//timer function for second timer block on exclusive-offer section
 var sec = parseInt(secondTimer.textContent);
 var displaySec = sec.toString();
 
@@ -19,6 +20,8 @@ setInterval(function () {
     : (displaySec = sec.toString());
 }, 1000);
 
+//the featured_card in hero-section has different background color in phone view light mode only
+//so this function just does that when the webpage enters phone view light mode.
 function featuredCardColorChanger() {
   if (!body.classList.length) {
     const featuredCard = document.querySelectorAll(".featured-card__content");
@@ -47,6 +50,9 @@ function featuredCardColorChanger() {
   }
 }
 
+//js script to handle theme toggle
+//dark and white icons and gradient effect toggle on themes
+//card element background and text colors toggle on themes
 function themeToggle() {
   var x = window.matchMedia("(max-width: 600px)");
   const popularTrendsCard = document.querySelectorAll(".popular-trends-card");
