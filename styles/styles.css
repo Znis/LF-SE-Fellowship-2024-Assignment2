@@ -116,9 +116,7 @@ li {
 .button {
   display: flex;
   align-items: center;
-  width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   max-width: 10rem;
   max-height: 10rem;
@@ -234,8 +232,7 @@ li {
 .featured-card__image {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .featured-card__content {
   background: linear-gradient(116.15deg, rgba(192, 192, 192, 0.63) -10.88%, rgba(255, 255, 255, 0.49) -10.87%, rgba(255, 255, 255, 0.07) 74.79%);
@@ -296,8 +293,7 @@ li {
 .main-card-template__image, .new-arrivals-card__image, .popular-trends-card__image {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .main-card-template__content, .new-arrivals-card__content, .popular-trends-card__content {
   padding: 1rem;
@@ -377,8 +373,7 @@ li {
 .search-input__icon {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .search-input__input-field {
   width: 100%;
@@ -425,8 +420,7 @@ li {
 .navbar__logo {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .navbar__menu {
   display: flex;
@@ -580,8 +574,7 @@ li {
 .gradient-effect__image {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .hero-model {
@@ -611,8 +604,7 @@ li {
 .hero-model__image {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .hero-model--lg-rectangle {
   position: absolute;
@@ -712,8 +704,7 @@ li {
 .hero__arrow-icon {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .featured-card-wrapper {
@@ -852,8 +843,7 @@ li {
 .exclusive-offer__image {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .exclusive-offer__discount-div {
   justify-content: center;
@@ -968,8 +958,7 @@ li {
 .other-accessories__image {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .scan-qr {
@@ -993,8 +982,7 @@ li {
 .scan-qr__image {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .scan-qr__right-container {
   align-items: center;
@@ -1026,8 +1014,7 @@ li {
 .scan-qr__app-download-image {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .footer-section {
@@ -1109,8 +1096,7 @@ li {
 .footer-section__logo {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .footer-section__left-top-middle-container {
   gap: 4rem;
@@ -1245,12 +1231,11 @@ li {
 .footer-section__social-icon {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .footer-section__copyright-text {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 2rem;
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}
