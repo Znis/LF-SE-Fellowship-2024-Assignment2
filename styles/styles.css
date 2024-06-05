@@ -1,4 +1,4 @@
-.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__bottom-container, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
+.footer-section__social-icon-wrapper, .footer-section__social-icons-container, .scan-qr__app-download-image-wrapper, .scan-qr__app-download-container, .scan-qr__image-wrapper, .scan-qr__left-container, .scan-qr__container, .scan-qr, .other-accessories__image-wrapper, .other-accessories__container, .exclusive-offer__buttons-wrapper, .exclusive-offer__time-container, .exclusive-offer__time-wrapper, .exclusive-offer__discount-div, .exclusive-offer__image-wrapper, .exclusive-offer__left-container, .exclusive-offer__container, .why-buy-musify__reason, .why-buy-musify__reason-wrapper, .why-buy-musify, .popular-trends__card-wrapper, .new-arrivals__card-wrapper, .featured-card-wrapper, .hero__circular-div, .hero__scroll-down-wrapper, .hero__buttons, .navbar__toggle, .navbar__right, .navbar, .main-card-template__buttons-wrapper, .new-arrivals-card__buttons-wrapper, .popular-trends-card__buttons-wrapper, .main-card-template__image-wrapper, .new-arrivals-card__image-wrapper, .popular-trends-card__image-wrapper, .featured-card__price-wrapper {
   display: flex;
   align-items: center;
 }
@@ -663,13 +663,13 @@ li {
   gap: 1.8rem;
 }
 .hero__bottom-container {
+  display: flex;
   justify-content: space-between;
   gap: 4rem;
 }
 @media screen and (max-width: 600px) {
   .hero__bottom-container {
     flex-direction: column-reverse;
-    align-items: flex-start;
     justify-content: center;
     gap: 3rem;
   }
