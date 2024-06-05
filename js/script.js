@@ -13,7 +13,7 @@ var displaySec = sec.toString();
 
 setInterval(function () {
   secondTimer.innerText = displaySec;
-  sec < 59 ? (sec += 1) : (sec = 0);
+  sec > 0 ? (sec -= 1) : (sec = 59);
   sec < 10
     ? (displaySec = "0" + sec.toString())
     : (displaySec = sec.toString());
