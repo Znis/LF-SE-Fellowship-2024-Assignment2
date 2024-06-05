@@ -24,6 +24,7 @@
   &__image-wrapper {
     @extend %align-center;
     justify-content: center;
+    @include hoverScale;
   }
 
   &__image {
@@ -65,6 +66,7 @@
     @extend %align-center;
     justify-content: center;
     width: 10rem;
+    @include hoverScale;
   }
 
   &__app-download-image {

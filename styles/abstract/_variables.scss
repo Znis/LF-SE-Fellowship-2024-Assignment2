@@ -10,6 +10,7 @@
 }
 
 //variables
+//these are the set of variables that are same across both the themes (light and dark)
 $primary-font: proximaNova;
 $price-text-color: #fc9918;
 $menu-active-link-color: #fc9918;
@@ -21,18 +22,18 @@ $color-orange: #f14a16;
 $global-font-color: #ffffff;
 
 :root {
-  --primary-font: proximaNova;
+  --primary-font: #{$primary-font};
 
-  --price-text-color: #fc9918;
-  --menu-active-link-color: #fc9918;
-  --button-background-color: #f14a16;
-  --button-text-color: #e5e5e5;
-  --featured-card-color: #b9b9b9;
-  --color-white: #ffffff;
-  --color-orange: #f14a16;
-  --global-font-color: #ffffff;
+  --price-text-color: #{$price-text-color};
+  --menu-active-link-color: #{$menu-active-link-color};
+  --button-background-color: #{$button-background-color};
+  --button-text-color: #{$button-text-color};
+  --featured-card-color: #{$featured-card-color};
+  --color-white: #{$color-white};
+  --color-orange: #{$color-orange};
+  --global-font-color: #{$global-font-color};
 
-
+  //different from dark theme
   --primary-font-color: #000000;
   --secondary-font-color: #282828;
   --alternate-font-color: #000000;
@@ -56,19 +57,18 @@ $global-font-color: #ffffff;
 }
 
 .dark-mode {
-  --primary-font: proximaNova;
+  --primary-font: #{$primary-font};
 
-  --price-text-color: #fc9918;
-  --menu-active-link-color: #fc9918;
-  --button-background-color: #f14a16;
-  --button-text-color: #e5e5e5;
-  --featured-card-color: #b9b9b9;
-  --color-white: #ffffff;
-  --color-orange: #f14a16;
-  --global-font-color: #ffffff;
+  --price-text-color: #{$price-text-color};
+  --menu-active-link-color: #{$menu-active-link-color};
+  --button-background-color: #{$button-background-color};
+  --button-text-color: #{$button-text-color};
+  --featured-card-color: #{$featured-card-color};
+  --color-white: #{$color-white};
+  --color-orange: #{$color-orange};
+  --global-font-color: #{$global-font-color};
 
-
-
+  //different from light theme
   --primary-font-color: #ffffff;
   --secondary-font-color: #a4a4a4;
   --alternate-font-color: #000000;

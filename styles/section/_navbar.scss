@@ -23,7 +23,6 @@
     @include tablet {
       justify-content: center;
     }
-  
   }
   &__logo {
     max-width: 100%;
@@ -44,7 +43,6 @@
     @include tablet {
       display: none;
     }
-  
   }
   &__link {
     font-family: var(--primary-font);
@@ -115,6 +113,7 @@
   &__hamburger-icon-wrapper {
     display: none;
     cursor: pointer;
+    @include hoverScale;
 
     @include phone {
       display: block;

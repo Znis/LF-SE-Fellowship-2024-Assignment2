@@ -62,10 +62,10 @@ function themeToggle() {
   );
 
   if (!body.classList.length) {
-    cartBtn.src = "./images/cart-icon-white.svg";
-    searchBtn.src = "./images/search-icon-white.svg";
-    arrowBtn.src = "./images/arrow-bottom-icon-white.svg";
-    hamburgerBtn.src = "./images/hamburger-icon-white.png";
+    cartBtn.src = "./images/icons/cart-icon-white.svg";
+    searchBtn.src = "./images/icons/search-icon-white.svg";
+    arrowBtn.src = "./images/icons/arrow-bottom-icon-white.svg";
+    hamburgerBtn.src = "./images/icons/hamburger-icon-white.png";
     gradientEffect.style.display = "block";
 
     popularTrendsCard.forEach((element) => {
@@ -79,10 +79,10 @@ function themeToggle() {
 
     body.classList.toggle("dark-mode");
   } else {
-    cartBtn.src = "./images/cart-icon-black.svg";
-    searchBtn.src = "./images/search-icon-black.svg";
-    arrowBtn.src = "./images/arrow-bottom-icon-black.svg";
-    hamburgerBtn.src = "./images/hamburger-icon-black.png";
+    cartBtn.src = "./images/icons/cart-icon-black.svg";
+    searchBtn.src = "./images/icons/search-icon-black.svg";
+    arrowBtn.src = "./images/icons/arrow-bottom-icon-black.svg";
+    hamburgerBtn.src = "./images/icons/hamburger-icon-black.png";
     gradientEffect.style.display = "none";
 
     popularTrendsCard.forEach((element) => {

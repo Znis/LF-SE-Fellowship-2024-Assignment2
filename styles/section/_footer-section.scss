@@ -17,7 +17,6 @@
       flex-direction: column;
       gap: 2rem;
     }
-   
   }
 
   &__left-container {
@@ -62,12 +61,10 @@
         max-height: 8rem;
         margin: 0 auto;
       }
-      
     }
 
     &--desktop {
       display: flex;
-
       @include phone {
         display: none;
       }
